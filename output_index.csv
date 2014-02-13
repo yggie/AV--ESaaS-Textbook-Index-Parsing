@@ -1,0 +1,2590 @@
+W,W3C,,,0
+E,EC2,,,0
+W,WilkesMauriceSir,,,2
+T,Turing Award,WilkesMauriceSir,,2
+E,EDSACTuring Award,,,2
+S,Software as a Service (SaaS),basic concept,,4
+M,Massive Open Online Course (MOOC),book materials,,4
+F,Facebook,household name,,4
+A,Ariane 5 rocket explosion,,,4
+A,Amazon,household name,,4
+V,Virtual Case File,,,4
+H,HopperGrace Murray,,,4
+T,Therac-25,,,4
+G,Google,household name,,4
+T,TurboTax Online,,,5
+A,Agile lifecycle,Rails use,,5
+P,Programming languages,SaaS frameworks,,5
+S,Software as a Service (SaaS),frameworks and languages,,5
+P,Programming frameworkslanguages for,,,5
+M,Microsoft Office 365,,,5
+R,Ruby on Rails basics,advantages,,5
+M,Mix-ins,Rails reuse,,6
+T,Twitter,Rails applications,,6
+Y,Yield,Rails reuse,,6
+M,Metaprogramming,Rails reuse,,6
+C,Closures,Rails reuse,,6
+B,Blocks,Rails reuse,,6
+R,Reuse,Rails,,6
+S,Service Oriented Architecture (SOA),basic concept,,7
+S,Service Oriented Architecture (SOA),Facebook Platform,,7
+G,Google+siloed software,,,7
+N,New York Times,Facebook Platform,,7
+A,Amazon,SOA vs. siloed software,,7
+S,Software as a Service (SaaS),SOA,,7
+S,Siloed software,SOA comparison,,7
+Y,YeggeSteve,,,7
+F,Facebook PlatformSOA,,,7
+S,Siloed software,bookstore service,,8
+S,Service Oriented Architecture (SOA),bookstore service,,8
+B,Bookstore service,siloed software,,8
+B,Bookstore service,silo vs. SOA,,8
+S,Siloed software,bookstore service,,8
+A,Application Programming Interface (API),silo bookstore service,,8
+A,Application Programming Interface (API),SOA bookstore service,,9
+B,Bookstore service,SOA,,9
+S,Service Oriented Architecture (SOA),bookstore service,,9
+S,Software as a Service (SaaS),cloud computing,,10
+M,McCarthyJohn,,,10
+T,Turing Award,McCarthyJohn,,10
+S,Software as a Service (SaaS),IT demands,,10
+L,Lisp,inventor,,10
+C,Communication,SaaS demands,,10
+C,Cloud computing,,,10
+C,Clusters,,,11
+U,Utility computing,,,11
+D,DependabilitySaaS demands,,,11
+S,Scalability,SaaS demands,,11
+W,Warehouse Scale Computers,,,11
+F,Five nines,,,11
+V,Virtual machines (VM),datacenters,,11
+I,Infinitely scalable,,,11
+D,Datacentersvirtual machines,,,11
+S,Software as a Service (SaaS),beautiful vs. legacy code,,12
+C,Cloud computing,definition,,12
+A,Amazon Elastic Compute Cloud (EC2),FarmVille,,12
+G,Google AppEngine,cloud computing,,12
+M,Microsoft Azure,,,12
+A,Amazon Web Services,cloud computing,,12
+S,Software evolutioncauses,,,12
+F,FarmVillegrowth,,,12
+L,Legacy code,definition,,13
+T,Testing,QA,,13
+S,Software as a Service (SaaS),testing,,13
+M,Mechanization of Contract Administration Services (MOCAS),,,13
+S,Short-lived code,,,13
+Q,Qualitydefinition,,,13
+B,Beautiful code,definition,,13
+Q,Quality assurance (QA),testing overview,,13
+T,Testing,exhaustive,,14
+A,Acceptance testing,software,,14
+I,Integration testing,software,,14
+V,Verification,software quality,,14
+V,Validation,software quality,,14
+W,White-box tests,software,,14
+G,Glass-box tests,,,14
+T,Test coverage,definition,,14
+U,Unit testing,software,,14
+C,Continuous integration (CI) testing,definition,,14
+R,Regression testing,purpose,,14
+T,Testing,verification/validation approaches,,14
+M,Module testing,,,14
+B,Black-box tests,,,14
+F,Formal methods,testing alternatives,,14
+S,System testingsoftware,,,14
+F,Fuzz testing,software,,15
+M,Mutation testing,software,,15
+M,Moore's Lawproductivity improvement,,,15
+S,Software as a Service (SaaS),productivity,,15
+P,Productivity,improvement,,15
+H,Higher-level programming languagesclarity improvement,,,16
+T,Turing Award,BackusJohn,,16
+S,Scripting languagesproductivity improvement,,,16
+A,Abstraction,clarity improvement,,16
+P,Programming languages,productivity improvement,,16
+B,Bit blit,,,16
+R,Reflection,productivity improvement,,16
+C,Conciseness,productivity improvement,,16
+M,Metaprogramming,productivity improvement,,16
+B,BackusJohn,,,16
+C,Clarity via concisenessproductivity improvement,,,16
+R,Reuse,productivity improvement,,16
+S,Synthesisproductivity improvement,,,16
+C,Collections,reuse,,17
+I,Interpretersautomation,,,17
+V,Velocity,automation,,17
+O,Object-oriented programming,reuse,,17
+M,Makefilesautomation,,,17
+C,Cucumber,automation,,17
+D,Design patterns,reuse,,17
+D,Dynamic typing,reuse,,17
+V,Version control systems (VCSs),automation,,17
+P,Pivotal Tracker,automation,,17
+D,Don't Repeat Yourself (DRY),reuse,,17
+M,Mix-ins,reuse,,17
+A,Automation,productivity improvement,,17
+R,RSpec,automation,,17
+C,Compilers,automation,,17
+C,Computer Aided Design (CAD) tools,,,17
+P,Plan-and-Document,early version,,18
+S,Software as a Service (SaaS),plan-and-document,,18
+S,Software engineeringcoining of term,,,18
+P,Plan-and-Document,overview,,18
+S,Software development processes,plan-and-document,,18
+P,Plan-and-Document,Spiral lifecycle,,19
+S,Spiral lifecycle,plan-and-document,,19
+W,Windows 95release celebration,,,19
+W,Waterfall lifecycle,plan-and-document,,19
+B,BrooksFredJr.,,,19
+P,PrototypingSpiral lifecycle,,,19
+T,Turing Award,BrooksFredJr.,,19
+P,Plan-and-Document,Waterfall lifecycle,,19
+M,Microsoft,Windows 95 release,,19
+W,Waterfall lifecycle,Spiral lifecycle,,20
+S,Spiral lifecycle,overview,,20
+P,Plan-and-Document,Spiral lifecycle,,20
+P,PrototypingSpiral lifecycle,,,20
+P,Plan-and-Document,lifecycle goals,,21
+C,ConstructionRUP phase,,,21
+E,Elaboration phaseRUP,,,21
+I,InceptionRUP phase,,,21
+E,Engineering disciplines,,,21
+P,Plan-driven processes,,,21
+W,Waterfall lifecycle,RUP,,21
+B,Big Design Up Front (BDUF),,,21
+S,Structured processes,,,21
+T,TransitionRUP phase,,,21
+D,Disciplined processes,,,21
+R,Rational Unified Process (RUP),plan-and-document,,21
+P,Plan-and-Document,RUP,,21
+H,Heavyweight processes,,,21
+S,Spiral lifecycle,RUP,,21
+W,WorkflowsRUP,,,21
+R,Rational Unified Process (RUP),overview,,22
+P,Plan-and-Document,RUP,,22
+C,Capability Maturity Model (CMM),,,23
+I,IEEE/ANSI standard 830/1993,,,23
+P,Plan-and-Document,CMM,,23
+S,Software development processes,Agile Manifesto,,24
+S,Software projects,budget surveys,,24
+S,Software as a Service (SaaS),development processesAgile Manifesto,,24
+S,Software Wall of Shame,,,24
+A,Agile Manifesto,overview,,24
+U,Undisciplined processAgile as,,,25
+A,Agile Manifesto,development model,,25
+P,Plan-and-Document,Agile comparison,,25
+V,Velocity,Agile,,25
+A,Agile lifecycle,variants,,25
+T,Test-driven development (TDD),Agile,,25
+B,BeckKent,,,25
+U,User stories,Agile,,25
+A,Agile lifecycle,TDD,,25
+E,Extreme Programming (XP),Agile variants,,25
+A,Agile lifecycle,alternate names,,25
+L,Lightweight processAgile,,,25
+A,Agile Alliance,,,25
+P,Plan-and-Document,Agile comparison,,26
+A,Agile lifecycle,decision to use,,26
+G,Geographically distributed programming teamsAgile vs. plan-and-document,,,26
+A,Agile lifecycle,plan-and-document comparison,,26
+P,Plan-and-Document,decision to use,,26
+L,Legacy code,testing comparisons,,27
+G,Google,Agile lifecycle,,27
+S,Spiral lifecycle,testing comparisons,,27
+W,Waterfall lifecycle,testing comparisons,,27
+T,Testing,Agile vs. plan-and-document,,27
+F,Facebook,Agile lifecycle,,27
+M,Microsoft,Agile lifecycle,,27
+P,Plan-and-Document,testing comparisons,,27
+E,eBay,Agile lifecycle,,27
+A,Agile lifecycle,testing comparisons,,27
+B,Beautiful code,testing comparisons,,27
+A,Amazon,Agile lifecycle,,27
+P,Productivity,Agile vs. plan-and-document,,28
+W,Waterfall lifecycle,productivity comparisons,,28
+A,Agile lifecycle,productivity comparisons,,28
+P,Plan-and-Document,productivity comparisons,,28
+S,Spiral lifecycle,productivity comparisons,,28
+A,Agile lifecycle,iteration example,,29
+F,Fallacy,,,32
+P,Pitfall,,,32
+A,Agile lifecycle,fallacy,,32
+C,Cost of software designpitfalls,,,32
+V,Virtuous Triangle of Engineering SaaS,,,33
+S,Software as a Service (SaaS),software engineering vs. programming,,33
+A,Agile DevelopmentVirtuous Triangle of Engineering SaaS,,,33
+S,SaaS on Cloud ComputingVirtuous Triangle of Engineering SaaS,,,33
+H,Highly Productive Framework and ToolsVirtuous Triangle of Engineering SaaS,,,33
+T,Turing Award,ThompsonKen,,40
+U,Unix,inventors,,40
+R,RitchieDennis,,,40
+T,Turing Award,RitchieDennis,,40
+T,ThompsonKen,,,40
+W,WEBrick,,,42
+R,Request,client-server architecture,,42
+M,Microsoft Internet Information Server,,,42
+P,Production clients,,,42
+E,Eudora,,,42
+A,Application architecture,client-server,,42
+R,Rotten Potatoes,client-server architecture,,42
+F,Firefoxclient-server architecture,,,42
+C,Client-Server Architecture,,,42
+R,Replyclient-server architecture,,,42
+U,Universal clientsweb browser,,,42
+A,AOL,,,42
+C,CompuServe,,,42
+V,Virtual machines (VM),client-server architecture,,42
+Y,Yahoo,web portal,,42
+M,MSN,,,42
+C,Client-Server Architecture,high-level view,,42
+W,Web browsers,client-server architecture,,42
+A,Apache web server,,,42
+P,Peer-to-peer architecture,,,43
+C,Client-Server Architecture,design pattern,,43
+S,Software as a Service (SaaS),important structures,,43
+D,Design patterns,client-server architecture,,43
+G,Google Docs,client-server architecture,,43
+H,HyperText Transfer Protocol (HTTP),communication,,44
+K,KahnBob,,,44
+C,Communication,HTTP and URIs,,44
+C,"CerfVinton E. ""Vint""",,,44
+I,IP address,TCP/IP network,,44
+N,Network protocol,,,44
+T,Turing Award,"CerfVinton E. ""Vint""",,44
+D,Domain Name System (DNS),hostname mapping,,44
+W,Web browsers,communication,,44
+N,Networking,early work,,44
+T,Transmission Control Protocol/Internet Protocol (TCP/IP),communication,,44
+T,Transmission Control Protocol/Internet Protocol (TCP/IP),early work,,44
+A,Application architecture,HTTP and URIs,,44
+H,Hostnames,mapping by DNS,,44
+T,Turing Award,KahnBob,,44
+W,Web servers,communication,,44
+R,Root zone,,,45
+S,Scheme,URI,,45
+T,Transmission Control Protocol/Internet Protocol (TCP/IP),port numbers,,45
+U,Uniform Resource Locators (URL),URI comparison,,45
+D,Domain Name System (DNS),root zone,,45
+P,Port numbers,IANA assignment,,45
+U,Uniform Resource Identifier (URI),URL comparison,,45
+I,IPv6networking explanation,,,45
+F,Full URI,,,45
+H,HTTP method,request,,45
+C,Communication,HTTP request,,45
+B,Base URI,,,45
+S,Secure HTTP protocol (HTTPS),networking explanation,,45
+H,Hostnames,URI,,45
+P,Partial URI,,,45
+R,Resource,URI,,45
+H,HyperText Transfer Protocol (HTTP),request example,,45
+W,Web servers,networking explanation,,45
+I,IP address,networking explanation,,45
+N,Network interface device,,,45
+P,Port numbers,TCP/IP,,45
+N,Networking,explanation,,45
+U,Uniform Resource Identifier (URI),definition,,45
+U,Uniform Resource Identifier (URI),HTTP request,,45
+P,Public-key cryptography,networking explanation,,45
+P,Port numbers,URI,,45
+I,Internet Assigned Numbers Authority (IANA),,,45
+H,HTTP request,example,,45
+M,Multi-homingnetworking explanation,,,45
+H,HyperText Transfer Protocol (HTTP),stateless protocol,,46
+C,CookiesHTTP,,,46
+W,Web browsers,cookies,,46
+S,Stateless protocol,HTTP,,46
+H,HTTP request,stateless protocol,,46
+C,Communication,cookies,,46
+S,Session,cookies,,46
+C,Communication,client pull vs. server push,,47
+S,Server pushclient pull comparison,,,47
+H,HyperText Markup Language (HTML),HTML 5 client pull vs. server push,,47
+R,Request-reply protocolHTTP,,,47
+H,HyperText Transfer Protocol (HTTP),client pull vs. server push,,47
+C,Client pullserver push comparison,,,47
+W,WebSocketsclient pull vs. server push,,,47
+E,eXtended HyperText Markup Language (XHTML),HTML 5,,48
+E,eXtensible Markup Language (XML),HTML 5,,48
+A,Application architecture,HTML and CSS,,48
+G,General Markup Language,,,48
+S,Selector notationsCSS,,,48
+C,CSS Zen Garden,,,48
+H,HyperText Markup Language (HTML),HTML 5 features,,48
+H,HyperText Markup Language (HTML),overview,,48
+S,Standard Generalized Markup Language (SGML),,,48
+H,HyperText Markup Language (HTML),introduction,,48
+C,Cascading Style Sheets (CSS),overview,,48
+M,Markup language,,,48
+C,Cascading Style Sheets (CSS),introduction,,49
+S,Selector notationsCSS,,,49
+C,Cascading Style Sheets (CSS),constructs,,49
+C,Cascading Style Sheets (CSS),content rendering,,50
+W,Web servers,content rendering,,50
+W,Web browsers,content rendering,,50
+P,Pastebin,,,50
+S,Software as a Service (SaaS),content rendering,,50
+P,Presentation tier,,,51
+A,Application architecture,three-tier and horizontal scaling,,51
+W,WEBrick,three-tier architecture,,51
+H,HTTP serverthree-tier architecture,,,51
+R,Rotten Potatoes,tiers,,51
+L,Logic tier3-tier architecture,,,51
+W,Web servers,three-tier architecture,,51
+W,Web application frameworks,three-tier architecture,,51
+T,Three-tier architecture,overview,,51
+G,Google AppEngine,,,51
+L,LAMP Stack,,,51
+R,Rack application server,Rails basics,,51
+H,Horizontal scaling,,,51
+M,Middleware,,,51
+P,Persistence tier3-tier architecture,,,51
+A,Application serverthree-tier architecture,,,51
+S,Stateless protocol,three-tier architecture,,52
+L,Load balancers3-tier architecture,,,52
+M,Master-slavethree-tier architecture,,,52
+S,Shared-nothing architecturethree-tier,,,52
+H,HyperText Transfer Protocol (HTTP),three-tier architecture,,52
+T,Three-tier architecture,overview,,52
+F,Facebook,database use,,53
+T,Three-tier architecture,overview,,53
+W,Web application frameworks,databases,,53
+R,Relational databasestorage structure,,,53
+D,Databases,purpose,,53
+P,Page Controller,MVC,,54
+T,Template View,MVC,,54
+M,Models,MVC,,54
+V,Views,MVC,,54
+A,Application architecture,MVC,,54
+M,Model-View-Controller (MVC),overview,,54
+R,Rotten Potatoes,views,,54
+C,Controllers,MVC,,54
+T,Template View,web app comparison,,55
+F,Front Controller,web app comparison,,55
+W,Web application frameworks,comparison,,55
+F,Front Controller,MVC,,55
+M,Model-View-Controller (MVC),web app comparison,,55
+P,Page Controller,web app comparison,,55
+M,Model-View-Controller (MVC),app requests,,56
+A,ActiveRecord,models,,57
+U,Unmarshalling,,,57
+C,"CoddEdgar F. ""Ted""",,,57
+A,AttributesRDBMS,,,57
+D,Deserializing,,,57
+F,Fieldsactive records,,,57
+M,Models,ActiveRecords,,57
+M,Marshalling,,,57
+R,Rotten Potatoes,records,,57
+S,Structured storage,,,57
+R,Relational algebra formalism,,,57
+R,Relational database management system (RDBMS),example table,,57
+T,Turing Award,"CoddEdgar F. ""Ted""",,57
+S,Serializing,,,57
+T,TablesRDBMS,,,57
+A,Application architecture,ActiveRecord for models,,57
+T,TablesRDBMS,,,57
+R,Relational database management system (RDBMS),design,,57
+R,Relational database management system (RDBMS),active record architectural pattern,,58
+P,Patterns,active record architecture,,58
+C,CRUD,definition,,58
+A,Active record architectural pattern,RDBMS,,58
+A,Application Programming Interface (API),RESTful,,59
+A,Application architecture,routescontrollersREST,,59
+W,Web application frameworks,Fielding's work,,59
+R,Representational State Transfer (REST),overview,,59
+H,HTTP verb,,,59
+B,BezosJeff,,,59
+R,Resource,Web app as,,59
+F,FieldingRoy,,,59
+C,Controllers,overview,,59
+S,Service Oriented Architecture (SOA),REST,,59
+R,Routes,overview,,59
+W,Web browsers,REST,,59
+M,Method,definition,,59
+U,Uniform Resource Identifier (URI),HTTP request,,59
+R,Rotten Potatoes,movie creation,,60
+W,Web browsers,HEAD,,60
+C,CRUD,routes,,60
+A,Amazon Web Services,APIs,,60
+H,HEADweb browsers,,,60
+R,Rotten Potatoes,routes,,60
+H,HTTP method,routes,,60
+U,Uniform Resource Identifier (URI),routes,,60
+R,Routes,examples,,60
+R,Representational State Transfer (REST),SOA,,61
+S,Service Oriented Architecture (SOA),REST,,61
+S,Simple Object Access Protocol (SOAP)REST/WS-* comparison,,,62
+W,WS-*REST/SOAP,,,62
+F,:format,,,62
+R,Representational State Transfer (REST),SOAP/WS-* comparison,,62
+T,Template View,overview,,62
+I,Interpolationtemplate views,,,62
+A,Application architecture,Template Views,,62
+R,Routes,:format,,62
+H,HTML Abstraction Markup Language (Haml),template views,,62
+I,Index controllertemplate views,,,62
+S,Service Oriented Architecture (SOA),:format in routes,,62
+C,Cascading Style Sheets (CSS),Haml constructs,,63
+H,HyperText Markup Language (HTML),Haml constructs,,63
+H,HTML Abstraction Markup Language (Haml),common constructs,,63
+P,PHP,template views,,63
+H,HTML Abstraction Markup Language (Haml),template views,,63
+I,Interpolationtemplate views,,,63
+R,Representational State Transfer (REST),template views,,63
+M,Model-View-Controller (MVC),template views,,63
+A,Active record architectural pattern,Transform View,,64
+S,Sharding,RDBMS scalability,,64
+R,Relational database management system (RDBMS),scalability,,64
+T,Template View,alternatives,,64
+S,Service Oriented Architecture (SOA),Transform View,,64
+R,Ruby on Rails basics,scalability,,64
+P,Patterns,Transform View,,64
+S,Scalability,RDBMS,,64
+S,Scalability,Rails,,64
+E,eXtensible Markup Language (XML),Transform View,,64
+D,Data consistencyRDBMS scalability,,,64
+T,Transform Viewtemplate view alternatives,,,64
+P,Per-computer performance,,,65
+H,Horizontal scaling,,,65
+H,HyperText Markup Language (HTML),development,,66
+B,Berners-LeeTim,,,66
+W,World Wide Web Consortium (W3C)HTTP/HTML development,,,66
+R,Ruby on Rails basics,origins,,66
+T,37 signals,,,66
+H,HyperText Transfer Protocol (HTTP),development,,66
+G,GrayJim,,,68
+T,Turing Award,GrayJim,,68
+W,Wildcards,regular expressions,,70
+R,Ruby on Rails basics,overview,,70
+D,Don't Repeat Yourself (DRY),Ruby's metaprogramming features,,70
+R,Regular expressions (regexps),Ruby overview,,70
+S,Symbol,Ruby overview,,70
+J,Java vs. Ruby,Ruby overview,,70
+F,Framework concepts,Ruby basics,overview,70
+R,Ruby on Rails basics,elements and control structures,,71
+P,Parentheses,Ruby regular expressions,,72
+R,Ruby on Rails basics,regular expressions,,72
+N,nil,Ruby regular expressions,,72
+R,Regular expressions (regexps),Ruby overview,,72
+F,falseRuby regular expressions,,,72
+S,String class,Ruby objects,,73
+R,Ruby on Rails basics,objects,,73
+F,Framework concepts,Ruby basics,objects,73
+J,Java vs. Ruby,objects,,73
+A,Array class,Ruby objects,,73
+F,Float classRuby objects,,,73
+H,Hash classRuby objects,,,73
+F,Fixnum class,Ruby objects,,73
+O,ObjectsRuby,,,73
+D,Dynamic typing,Ruby objects,,73
+R,Reflection,Ruby objects,,74
+M,Method,Ruby objects,,74
+R,Root classRuby objects,,,74
+S,Smalltalk,,,74
+M,MetaclassRuby objects,,,74
+S,Simula,,,74
+C,Class classRuby objects,,,74
+C,Class,Ruby objects,,74
+R,Receiver,Ruby objects,,74
+C,Class inheritanceRuby objects,,,74
+U,Undefined methodRuby objects,,,74
+M,Method chainingRuby objects,,,74
+L,Looking up a methodRuby objects,,,74
+B,BasicObject classRuby objects,,,74
+O,Object-orientation (OO),Ruby objects,,74
+M,Method call,operation as,,75
+S,Send method,,,75
+R,Ruby on Rails basics,operation as method,,75
+S,String class,type casting,,75
+F,Framework concepts,Ruby basics,operation as method,75
+S,Syntactic sugarmethod calls,,,75
+O,Operationmethod call,,,75
+T,Type castingmethod calls,,,75
+J,Java vs. Ruby,type casting,,75
+P,Parentheses,poetry mode,,76
+L,Lexical scopingmethod calls,,,76
+S,Syntactic sugarmethod calls,,,76
+C,Curly bracespoetry mode,,,76
+P,Poetry mode,,,76
+C,ClassNamemethod calls,,,76
+A,Arguments,method calls,,77
+M,Method call,number of arguments,,77
+P,Parentheses,number of arguments,,77
+M,Method,Ruby objects,,78
+C,Class,Ruby objects,,78
+M,Movie class,Ruby objects,,78
+F,Framework concepts,Ruby basics,classesmethodsinheritance,78
+I,Instance variables,,,78
+R,Ruby on Rails basics,classesmethodsinheritance,,78
+C,Class,definition in Ruby,,78
+I,Inheritance,Ruby,,78
+I,initialize,classes,,78
+E,EncapsulationRuby vs. Java,,,79
+S,Static variableJava vs. Ruby,,,79
+G,Getter methodRuby objects,,,79
+C,Class variables,Ruby,,79
+J,Java vs. Ruby,classes,,79
+D,Data hidingRuby vs. Java,,,79
+O,Object classRuby,,,79
+A,Accessor methodRuby objects,,,79
+M,Method,definition with self,,80
+S,Self,class method definition,,80
+J,Java vs. Ruby,feature translation,,80
+S,Self,future-proofing example,,81
+D,Don't Repeat Yourself (DRY),metaprogramming,,81
+F,Fixnum class,metaprogramming,,81
+J,Java vs. Ruby,metaprogramming,,81
+M,method_missing,metaprogramming,,81
+R,Ruby on Rails basics,metaprogramming,,81
+M,Metaprogramming,programming as,,81
+T,Time class,arithmetic operations,,81
+F,Framework concepts,Ruby basics,metaprogramming,81
+T,Time class,arithmetic operations,,82
+E,Epoch,,,82
+F,Fixnum class,time arithmetic,,82
+S,Self,time arithmetic,,82
+U,Unix,time representation,,82
+D,Dynamic language features,pitfalls,,83
+A,Arguments,variable length lists,,83
+F,Framework concepts,Ruby basics,blocks,84
+S,SeparatorRuby blocks,,,84
+M,Movie class,blocks example,,84
+C,Closures,Ruby blocks,,84
+R,Ruby on Rails basics,blocks,,84
+A,Anonymous lambda expressionblocks,,,84
+B,Blocks,overview,,84
+E,each method,definition,,84
+I,Iterators,Ruby blocks,,84
+D,Duck typing,each method,,85
+F,Functional programmingRuby blocks,,,85
+C,Collections,operators,,85
+E,each method,duck typing,,85
+D,Destructive methodsusage,,,86
+C,Collections,methods on,,86
+A,Arguments,methods on collections,,86
+R,Receiver,methods on collections,,86
+M,Method,collections,,86
+B,Blocks,methods on collections,,86
+B,Blocks,XML Builder,,87
+X,XML Builderblocks and metaprogramming,,,87
+M,method_missing,XML Builder,,87
+M,Metaprogramming,XML Builder,,87
+D,Duck typing,overview,,88
+M,max methodEnumerable,,,88
+D,Dynamic typing,Lisp,,88
+I,include,module contract checking,,88
+M,Module,definition,,88
+A,Array class,each method,,88
+E,each method,Array class,,88
+S,Spaceship operator,,,88
+C,Collections,Enumerable,,88
+F,Framework concepts,Ruby basics,mix-ins and duck typing,88
+J,Java vs. Ruby,Enumerable,,88
+R,Ruby on Rails basics,mix-ins and duck typing,,88
+M,min methodEnumerable,,,88
+E,Enumerable,collection methods,,88
+M,Mix-ins,,,88
+E,Emacs,mix-ins,,88
+L,Lisp,dynamic typing,,88
+S,sort methodEnumerable,,,88
+F,Framework concepts,Ruby basics,iterators via yield,89
+D,Duck typing,Time class,,89
+I,Iterators,making with yield,,89
+Y,Yield,iterators from,,89
+L,LiskovBarbara,,,89
+E,each method,iterator definition,,89
+C,CLU languageyield basis,,,89
+R,Ruby on Rails basics,iterators via yield,,89
+T,Time class,duck typing,,89
+Y,Yield,Ruby vs. operating systems,,90
+E,Enumerable,yield example,,90
+J,Java vs. Ruby,yield,,90
+C,CLU languageyield basis,,,90
+Y,Yield,example,,90
+H,HyperText Markup Language (HTML),yield,,92
+R,Ruby on Rails basics,Java programmers,,92
+J,Java vs. Ruby,coding in Ruby,,92
+M,Method,naming issues,,93
+S,String,symbol interchangeability,,93
+I,include,confusion with require,,93
+R,requireconfusion with include,,,93
+R,Ruby on Rails basics,idiomatic language,,93
+F,Framework concepts,Ruby basics,idiomatic language,93
+S,Symbol,string interchangeability,,93
+V,Variable naming,issues,,93
+T,Turing Award,HoareCharles Antony Richard,,98
+P,Programming languages,Turing Award,,98
+H,HoareCharles Antony Richard,,,98
+R,Rubygems,,,100
+H,HTTP method,Rails basics,,100
+R,Rails concepts,overview,,100
+R,Rotten Potatoes,Rails basics,,100
+A,ActionView,Rails basics,,100
+R,Rack application server,Rails basics,,100
+G,GroupRails basics,,,100
+B,Bundler,Rails basics,,100
+B,Bookware VM,Rails basics,,100
+M,Module,Rails basics,,100
+B,Blocks,Rails basics,,100
+S,SQLite3Rails basics,,,100
+V,Virtual machines (VM),bookware image,,100
+A,ActiveRecord,Rails basics,,100
+W,Web browsers,Rails basics,,100
+G,Gems,Rails basics,,100
+A,ActionControllerRails basics,,,100
+F,Framework concepts,Rails basics,overview,100
+U,Uniform Resource Identifier (URI),Rails basics,,100
+M,Model-View-Controller (MVC),Rails basics,,100
+D,Directory structureRails app example,,,101
+M,Model-View-Controller (MVC),Rails basics,,101
+R,ruby-debug19,,,102
+A,Automation for repeatabilityBundler,,,102
+B,Bundler,automation for repeatability,,102
+B,Bookware VM,Rails basics,,102
+H,HTML Abstraction Markup Language (Haml),Rails app example,,102
+U,Uniform Resource Identifier (URI),Rails basics,,102
+R,Representational State Transfer (REST),CRUD,,102
+C,CRUD,Rails basics,,102
+P,Pastebin,,,102
+R,Routes,Rails basics,,102
+S,Symbol,string comparison,,103
+R,ReloadingRails app example,,,103
+R,Representational State Transfer (REST),CRUD,,103
+M,MoviesController class,Rails basics,,103
+H,HTTP redirectRails basics,,,103
+R,Routes,non-resource-based,,103
+S,String,symbol comparison,,103
+F,Framework concepts,Rails basics,databases and migrations,104
+W,WEBrick,Rails app example,,104
+E,EnvironmentsRails basics,,,104
+C,Controllers,routes,,104
+W,Wildcards,routes,,104
+R,Rails concepts,databases and migrations,,104
+S,SQLite3Rails basics,,,104
+P,params[],Rails app example,,104
+D,Databases,Rails app example,,104
+R,Relational database management system (RDBMS),Rails app example,,104
+R,Routes,wildcard tokens,,104
+D,Don't Repeat Yourself (DRY),Rails app example,,104
+M,Migrations,Rails app example,,104
+U,Uniform Resource Identifier (URI),params hash,,104
+A,ActiveRecord,Rails basics,,105
+G,GeneratorRails app example,,,105
+B,Blocks,Rails basics,,105
+M,Migrations,Rails app example,,105
+D,down methodRails app example,,,105
+E,EnvironmentsRails basics,,,106
+M,Migrations,Rails app example,,106
+F,Framework concepts,Rails basics,models,107
+C,CRUD,models,,107
+M,Movie class,models,,107
+R,Rails concepts,models,,107
+C,create!ActiveRecord,,,107
+A,ActiveRecord,basics,,107
+M,Models,ActiveRecords,,107
+M,Models,MVC,,108
+T,Time class,Rails app example,,108
+S,SQL injection,Rails app example,,108
+M,method_missing,Rails app example,,108
+E,Enumerable,Rails app example,,108
+F,find-based methodsRails app example,,,108
+C,create,Rails app example,,108
+A,ActiveRecord,Rails basics,,108
+S,save,Rails app example,,108
+W,where methodRails app example,,,108
+M,Model-View-Controller (MVC),model behaviors,,108
+S,save!,Rails app example,,109
+U,update_attributes,Rails app example,,109
+S,Seeding,,,109
+M,Migrations,seeding comparison,,109
+D,destroy methodRails app example,,,109
+C,Collections,proxy object,,110
+P,Proxy objectRails app example,,,110
+A,ActiveRecord,proxy object,,110
+C,CRUD,views,,111
+F,Framework concepts,Rails basics,controllers and views,111
+S,show,Rails app example,,111
+C,Controllers,Rails app example,,111
+V,Views,Rails app example,,111
+M,MoviesController class,Rails basics,,111
+I,Index action,Rails app example,,111
+A,ActiveView::Base,,,111
+R,Representational State Transfer (REST),controllers,,111
+A,ApplicationController,Rails app example,,111
+R,Rails concepts,controllers and views,,111
+R,Representational State Transfer (REST),controllers,,112
+S,SanitizationHaml,,,112
+A,ActionView,link_to,,112
+H,HTML Abstraction Markup Language (Haml),sanitization,,112
+I,Index action,controller and template,,112
+T,Template View,index RESTful action,,112
+C,Controllers,index RESTful action,,112
+L,link_toRails app example,,,112
+H,HTTP method,route helpers,,113
+R,Reflection,conciseness,,113
+M,Metaprogramming,conciseness,,113
+A,ActionView,metaprogramming,,113
+R,Representational State Transfer (REST),metaprogramming,,113
+H,HTML Abstraction Markup Language (Haml),Rails app example,,113
+R,Routes,helpers via metaprogramming,,113
+U,Uniform Resource Identifier (URI),route helpers,,113
+J,JavaScript,Rails app example,,113
+C,Conciseness,reflection and metaprogramming,,113
+M,Metaprogramming,route helpers,,113
+L,link_toRails app example,,,114
+U,Uniform Resource Identifier (URI),Rails app example,,114
+C,Controllers,show action,,114
+S,show,controller method,,114
+R,Representational State Transfer (REST),controllers,,114
+D,Debugging,Rails app example,,117
+B,BacktraceRASP,,,117
+R,RASP (ReadAskSearchPost)debugging,,,117
+R,Rails concepts,debugging,,117
+F,Framework concepts,Rails basics,debugging,117
+G,Google,error message searches,,118
+S,Shotgun problem solving,,,118
+N,NilClassdebugging,,,118
+T,Tom Knight and the Lisp Machine,,,118
+S,Syntax errorsdebugging,,,119
+R,raise params.inspectdebugging,,,119
+I,Instrumentationdebugging,,,119
+J,Java vs. Ruby,syntax errors,,119
+H,HTML Abstraction Markup Language (Haml),debugging,,119
+D,debugger statementRails app example,,,119
+L,logger.debug,,,119
+R,require 'ruby-debug',,,119
+P,printf debugging,,,119
+F,Framework concepts,Rails basics,form submission,120
+R,Representational State Transfer (REST),form submission,,120
+N,new,form submission,,120
+R,Rails concepts,form submission,,120
+C,create,form submission,,120
+F,Form submission,Rails app example,,120
+P,params[],form submission,,121
+F,Form submission,Rails app example,,121
+R,Rotten Potatoes,form submission,,121
+R,Rails concepts,redirection and flash,,122
+F,Flash,Rails app example,,122
+C,create,Rails app example,,122
+F,Framework concepts,Rails basics,redirection and flash,122
+R,Redirection,Rails app example,,122
+P,params[],create action,,122
+D,DebuggerRuby,,,123
+R,Representational State Transfer (REST),index action,,123
+I,Index action,redirection,,123
+R,Ruby on Rails basics,debugger,,123
+H,HTML Abstraction Markup Language (Haml),flash message,,124
+A,Amaya,,,124
+F,Flash,CSS,,124
+C,Cascading Style Sheets (CSS),editor for,,124
+C,Cascading Style Sheets (CSS),flash message,,124
+D,destroy methodRails app example,,,125
+S,session[],characteristics,,125
+F,Framework concepts,Rails basics,edit/update and destroy,125
+R,Rails concepts,edit/update and destroy,,125
+C,CRUD,edit/update and destroy,,125
+R,Representational State Transfer (REST),CRUD,,125
+E,Edit,Rails app example,,125
+U,update,Rails app example,,125
+D,Don't Repeat Yourself (DRY),similar things,,126
+E,Edit,Rails app example,,126
+U,Uniform Resource Identifier (URI),Rails app example,,126
+U,update,Rails app example,,126
+H,HTML Abstraction Markup Language (Haml),edit vs. new views,,126
+A,ActiveRecord,destroy,,127
+D,destroy methodRails app example,,,127
+H,HyperText Markup Language (HTML),delete action,,127
+B,button_toRails app example,,,128
+G,GETPOST comparison,,,128
+P,POSTGET comparison,,,128
+V,Views,fat,,129
+D,Databases,manual modification,,129
+G,Gems,manual modification,,129
+M,Migrations,database modifications,,129
+C,Controllers,fat,,129
+S,session[],overstuffing,,129
+B,Bundler,gem modification,,129
+S,Service Oriented Architecture (SOA),designing for,,130
+R,Representational State Transfer (REST),session[] hash overstuffing,,130
+D,DahlOle-Johan,,,134
+S,Simula,,,134
+T,Turing Award,DahlOle-Johan,,134
+O,Object-orientation (OO),Turing Award,,134
+T,Turing Award,NygaardKristen,,134
+N,NygaardKristen,,,134
+N,new,partial,,136
+F,Framework concepts,Railsadvanced,MVC DRYness,136
+P,Partial,new/edit templates,,136
+E,Edit,partial,,136
+P,Partial,JavaScript,,136
+P,Partial,example,,136
+M,Model-View-Controller (MVC),DRY,,136
+J,JavaScript,partial,,136
+P,Partial,DRY,,136
+R,Rails concepts,MVC DRYness,,136
+D,Don't Repeat Yourself (DRY),MVC,,136
+E,errors methodvalidation,,,137
+M,Malicious usersinput checks,,,137
+P,Partial,example,,137
+F,full_messagesvalidation,,,137
+A,ActiveModelvalidation,,,137
+B,Botinput checks,,,137
+V,Validation,ActiveModelpredefined,,137
+U,update,replacement for,,138
+U,update_attributes,validation,,138
+S,save,validation,,138
+U,update_attributes!validation,,,138
+S,save!,validation,,138
+V,Validation,action substitution,,138
+C,create,replacement for,,138
+E,errors methodvalidation,,,139
+A,ActiveRecord,lifecycle hooks,,139
+V,Views,validation interactions,,139
+D,Databases,ActiveRecord lifecycle hooks,,139
+V,Validation,controller/view interactions,,139
+B,before_save,ActiveRecord lifecycle hooks,,139
+F,Filters,definition,,139
+C,Controllers,validation interactions,,139
+B,before_save,example,,140
+Y,Yield,around-filters,,140
+R,Redirection,example,,140
+J,Join pointAOP,,,141
+A,Aspect-oriented programming (AOP),overview,,141
+R,Ruby on Rails basics,AOP support,,141
+A,AdviceAOP,,,141
+P,PointcutAOP,,,141
+G,Google,OAuth,,142
+F,Facebook,OAuth,,142
+O,OAuth,,,142
+S,Single sign-on (SSO),third-party authentication,,142
+T,Twitter,OAuth,,142
+S,Single sign-on (SSO),Facebook,,142
+A,Authorization,,,142
+T,Twitter,authentication,,142
+S,Single sign-on (SSO),third-party authentication,,142
+P,Provenanceauthentication,,,142
+F,Facebook,SSO,,142
+F,Framework concepts,Railsadvanced,SSO and third-party authentication,142
+N,NetflixOAuth,,,142
+P,Principal,authentication,,142
+R,Rotten Potatoes,third-party authentication,,142
+A,Authentication,definition,,142
+T,Third-party authenticationSSO,,,142
+T,Third-party authenticationSSO,,,142
+S,Server certificateauthentication,,,142
+M,Microsoft,OAuth,,142
+R,Rails concepts,SSO and third-party authentication,,142
+C,Callbacks,authentication,,143
+G,Globally-unique ID (guid),,,143
+S,StrategyOmniAuth gem,,,143
+A,Access tokenauthentication,,,143
+O,OmniAuth,authentication,,143
+A,ApplicationController,OmniAuth gem,,144
+O,OmniAuth,example,,144
+T,Twitter,authentication,,144
+A,Authentication,example,,144
+S,SessionsControllerOmniAuth gem,,,144
+S,session[],authentication,,145
+F,Facebook,OmniAuth,,145
+P,params[],authentication,,145
+T,Twitter,OmniAuth,,145
+O,OmniAuth,Twitter,,145
+A,ApplicationController,authentication,,145
+G,Google Apps,OmniAuth,,145
+N,New York Times,Facebook Connect,,146
+F,Form submission,authentication,,146
+H,Hidden form fieldsauthentication,,,146
+M,Malicious attackers,authentication,,146
+P,Principle of least privilege,authentication,,146
+F,Facebook Connect,SSO side effects,,146
+S,Single sign-on (SSO),side effects,,146
+C,Cartesian product,foreign keys,,147
+F,Framework concepts,Railsadvanced,associations and foreign keys,147
+R,Rotten Potatoes,associations,,147
+C,Cardinalityassociations,,,147
+A,Associations,example,,147
+F,Foreign keys,,,147
+A,Associations,overview,,147
+J,Joinforeign keys,,,147
+U,Unified Modeling Language (UML),associations,,147
+R,Rails concepts,associations and foreign keys,,147
+S,Structured Query Language (SQL),associations,,148
+A,ActiveRecord,associations,,148
+A,Associations,example,,148
+M,Migrations,foreign keys,,149
+F,Foreign keys,example,,149
+B,belongs_to,associations,,149
+H,has_many,function,,149
+C,Collections,has_many,,149
+H,has_onefunction,,,149
+A,Associations,ActiveRecord vs. DataMapper,,150
+D,DataMapper,ActiveRecord comparison,,150
+A,ActiveRecord,DataMapper comparison,,150
+G,Google AppEngine,DataMapper,,150
+C,CouchDBDataMapper,,,150
+N,NoSQL storage systemsDataMapper,,,150
+B,belongs_to,example,,150
+C,CassandraDataMapper,,,150
+H,has_many,example,,150
+A,Associations,example,,150
+A,ActiveRecord,associations,,150
+M,MongoDBDataMapper,,,150
+S,SinatraDataMapper,,,151
+U,Unified Modeling Language (UML),ActiveRecord vs. DataMapper,,151
+D,DataMapper,Google AppEngine,,151
+G,Google AppEngine,DataMapper,,151
+A,ActiveRecord,DataMapper comparison,,151
+P,PHP,DataMapper,,151
+T,Through-associations,,,152
+T,Through-associations,,,152
+H,has_many,through-associations,,152
+R,Rails concepts,through-associations,,152
+F,Framework concepts,Railsadvanced,through-associations,152
+C,Cartesian product,through-associations,,152
+S,save!,associations,,153
+A,Associations,characteristics,,153
+V,Validation,associations,,153
+S,save,associations,,153
+F,Facebook,has_and_belongs_to_many,,154
+C,create,associations,,154
+R,Routes,associations,,154
+N,new,associations,,154
+A,Associations,RESTful routes,,154
+S,session[],associations,,154
+F,Framework concepts,Railsadvanced,RESTful routes for associations,154
+R,ReviewsControllerassociations,,,154
+R,Representational State Transfer (REST),associations,,154
+R,Rails concepts,RESTful routes for associations,,154
+H,has_and_belongs_to_many (HABTM),,,154
+R,Routes,nested,,155
+O,"""Owning""",associations,,155
+P,params[],associations,,155
+U,Uniform Resource Identifier (URI),nested routes,,155
+C,CRUD,associations,,155
+U,Uniform Resource Identifier (URI),before-filters,,156
+H,HTML Abstraction Markup Language (Haml),"before-filters for ""owning""",,156
+B,Before-filters,"""owning"" resources",,156
+O,"""Owning""",before-filters,,156
+S,Service Oriented Architecture (SOA),associations,,157
+S,Session,RESTful association routes,,157
+M,Model-View-Controller (MVC),implementation detail exposure,,157
+A,ActiveRelation (ARel),composable scopes,,157
+R,Rails concepts,queries with reusable scopes,,157
+F,Framework concepts,Railsadvanced,queries with reusable scopes,157
+A,Associations,RESTful routes,,157
+R,Representational State Transfer (REST),associations,,157
+S,Scopes,query composition,,157
+Q,Queriescomposition with reusable scopes,,,157
+S,Scopes,filter criteria,,158
+M,Metaprogramming,scopes,,158
+A,ActiveRecord,group method,,158
+F,Filters,scopes,,158
+L,Lazy evaluation,scopes,,159
+C,Callbacks,pitfalls,,159
+F,Filters,pitfalls,,159
+E,Error checkingassociations,,,160
+A,Aspect-oriented programming (AOP),COME FROM comparison,,160
+A,ApplicationController,filters and callbacks,,160
+A,Associations,error checking,,160
+D,DijkstraEdsger W.,,,160
+N,Nested resources,,,160
+G,Go To Statement Considered Harmful (Dijkstra),,,160
+C,COME FROM,,,160
+B,BackusJohn,,,164
+P,PerlisAlan,,,164
+B,Backus-Naur form,,,164
+A,ALGOL,,,164
+T,Turing Award,PerlisAlan,,164
+N,NaurPeter,,,164
+C,Compilers,Turing Award,,164
+P,Programming languages,Turing Award,,164
+W,Web browsers,Scheme,,166
+E,EichBrendan,,,166
+J,JavaScript,ECMAScript,,166
+S,Single-page applications (SPAs),,,166
+G,Graceful degradationJavaScript,,,166
+M,Microsoft JScript,,,166
+L,LiveScript,,,166
+G,Google Docs,JavaScript,,166
+C,Client-side JavaScript,definition,,166
+S,Service Oriented Architecture (SOA),SPAs,,166
+A,Adobe ActionScript,,,166
+F,Framework concepts,JavaScript,overview,166
+J,JavaScript,overview,,166
+E,eXtensible Markup Language (XML),SPAs,,166
+M,Model-View-Controller (MVC),JavaScript,,166
+S,Server-side applicationsJavaScript,,,166
+J,JavaScript,Scheme origins,,166
+J,JavaScript Object Notation (JSON),,,166
+N,Node.js,,,166
+E,ECMAScript,,,166
+S,Scheme,JavaScript origins,,166
+S,Server-side applicationsJavaScript,,,167
+C,Client-side JavaScript,DRY,,167
+R,Rotten Potatoes,JavaScript features,,167
+U,UnobtrusivenessJavaScript,,,167
+D,Don't Repeat Yourself (DRY),JavaScript,,167
+J,JavaScript Application Programming Interface (JSAPI),,,168
+A,Asynchronous JavaScript And XML (AJAX),coining of term,,168
+E,eXtensible Markup Language (XML),AJAX,,168
+G,GarrettJesse James,,,168
+Q,quirksmode.org,,,168
+T,Test-driven development (TDD),JavaScript,,168
+J,jQuery,Adapter,,168
+I,Internet Explorer 5,JavaScript,,168
+G,Google Maps,AJAX,,168
+A,Asynchronous JavaScript And XML (AJAX),XML use,,168
+W,Web browsers,JASPI,,168
+A,AdapterjQuery,,,168
+C,Client-side JavaScript,tips for Ruby programmers,,169
+F,Framework concepts,JavaScript,client-side,169
+S,Slotsclient-side JavaScript,,,169
+R,Ruby on Rails basics,JavaScript,,169
+J,Java,JavaScript relationship,,169
+J,JavaScript Object Notation (JSON),definition,,169
+J,JavaScript,client-side,,169
+O,Object literalsclient-side JavaScript,,,169
+P,Propertiesclient-side JavaScript,,,169
+J,JavaScript,basic constructs,,170
+R,Ruby on Rails basics,JavaScript,,170
+O,Object literalsclient-side JavaScript,,,171
+J,jQuery,JavaScript for Ruby programmers,,171
+H,HyperText Markup Language (HTML),client-side JavaScript,,171
+J,JSON.org,,,171
+J,JavaScript,unobtrusive code,,172
+D,Debugging,JavaScript,,172
+Y,Yet Another Markup Language (YAML),structured data,,173
+J,JavaScript Object Notation (JSON),structured data,,173
+J,jQuery,minifying,,173
+S,Serializing,,,173
+A,Asset pipeline,,,173
+E,eXtensible Markup Language (XML),structured data,,173
+C,CoffeeScript,,,173
+M,Minifying,,,173
+D,Deflating,,,173
+M,Marshalling,,,173
+T,this keyword,JavaScript,,174
+G,Global objectJavaScript,,,174
+F,First-class objectsJavaScript,,,174
+N,new,JavaScript,,174
+F,Firebug,,,174
+C,ConstructorsJavaScript,,,174
+P,Prototype inheritanceJavaScript,,,174
+F,FunctionsJavaScript,,,174
+F,Framework concepts,JavaScript,functions and constructors,174
+J,JavaScript,functions and constructors,,174
+F,First-class objectsJavaScript,,,175
+J,JavaScript,prototype inheritance,,176
+S,Self,JavaScript prototype inheritance,,176
+P,Prototype inheritanceJavaScript,,,176
+N,new,JavaScript,,176
+A,Apple Newton,,,176
+N,NewtonScript,,,176
+J,JavaScript,DOM and jQuery,,177
+R,Rotten Potatoes,DOM,,177
+J,JavaScript Application Programming Interface (JSAPI),,,177
+W,windowJavaScript,,,177
+F,Framework concepts,JavaScript,DOM and jQuery,177
+E,eXtensible Markup Language (XML),JavaScript DOM,,177
+D,Document Object Model (DOM),Rotten Potatoes,,177
+E,eXtended HyperText Markup Language (XHTML),JavaScript DOM,,177
+D,Document Object Model (DOM),use of term,,177
+D,Document Object Model (DOM),JavaScript,,177
+J,jQuery,overview,,177
+H,HyperText Markup Language (HTML),JavaScript DOM,,177
+D,Document Object Model (DOM),manipulation with jQuery,,178
+J,jQuery,DOM manipulation,,178
+O,OverloadingjQuery,,,178
+J,jQuery,DOM manipulation,,179
+D,Document Object Model (DOM),manipulation with jQuery,,179
+D,Document Object Model (DOM),dynamic HTML,,180
+C,Callbacks,JavaScript,,180
+C,click eventauthentication,,,180
+D,Document Object Model (DOM),JavaScript event handlers,,180
+D,Dynamic HTML,,,180
+J,JavaScript,dynamic HTML,,180
+C,Cascading Style Sheets (CSS),dynamic HTML,,180
+J,JavaScript,events and callbacks,,180
+H,HyperText Markup Language (HTML),dynamic HTML,,180
+J,jQuery,JavaScript event handlers,,180
+E,Event handlersJavaScript,,,180
+F,Framework concepts,JavaScript,events and callbacks,180
+E,Events,JavaScript,,180
+J,JavaScript,jQuery API,,181
+W,Web browsers,JavaScript event handlers,,181
+A,Application Programming Interface (API),jQuery,,181
+J,jQuery,API,,181
+W,windowJavaScript,,,181
+R,Rotten Potatoes,jQuery example,,182
+T,this keyword,JavaScript,,182
+"",$(),JavaScript event handlers,,182
+A,Application Programming Interface (API),jQuery,,182
+J,jQuery,example,,182
+D,Document Object Model (DOM),jQuery example,,182
+C,change eventJavaScript,,,183
+S,submitJavaScript,,,183
+J,jQuery,invoking,,184
+"",$(),invoking,,184
+G,Google Maps,XmlHttpRequest,,185
+J,JavaScript,AJAX,,185
+E,Events,JavaScript custom events,,185
+C,change eventJavaScript,,,185
+I,Internet Explorer 5,XmlHttpRequest,,185
+M,Microsoft,XmlHttpRequest,,185
+T,triggerJavaScript custom events,,,185
+U,update,JavaScript custom events,,185
+A,Asynchronous JavaScript And XML (AJAX),overview,,185
+F,Framework concepts,JavaScript,AJAX,185
+X,XmlHttpRequest (XHR),,,185
+D,Don't Repeat Yourself (DRY),JavaScript custom events,,185
+R,Request,AJAX,,186
+R,Representational State Transfer (REST),AJAX,,186
+S,show,AJAX,,186
+H,HiJax,,,186
+A,ajax function,,,186
+"",$.ajax,,,186
+A,Asynchronous JavaScript And XML (AJAX),XHR,,187
+U,Uniform Resource Locators (URL),AJAX XHR,,187
+X,XmlHttpRequest (XHR),,,187
+U,Uniform Resource Identifier (URI),AJAX XHR,,187
+A,Asynchronous JavaScript And XML (AJAX),example,,187
+U,Uniform Resource Identifier (URI),AJAX XHR,,188
+C,Cascading Style Sheets (CSS),AJAX,,188
+J,jQuery,example,,188
+A,Asynchronous JavaScript And XML (AJAX),example,,188
+J,JavaScript,task parallelism,,190
+T,Task-parallel programmingevent-driven comparison,,,190
+R,RSpec,JavaScript and AJAX testing,,190
+C,Callbacks,event-driven programming,,190
+J,JavaScript,testing,,190
+F,Framework concepts,JavaScript,testing,190
+T,Test-driven development (TDD),JavaScript and AJAX testing,,190
+E,Event-driven programming,,,190
+A,Asynchronous JavaScript And XML (AJAX),testing,,190
+J,Jasmine,AJAX testing,,190
+G,Gemfile,,,190
+T,Testing,JavaScript and AJAX,,190
+P,Pivotal Labs,Jasmine,,190
+W,WebWorkers,,,190
+J,Jasmine,setting up,,191
+J,Jasmine,directory creation,,191
+R,RSpec,setting up,,191
+J,jQuery,Jasmine,,191
+J,Jasmine-Rails,,,192
+D,describe,Jasmine,,192
+S,stub,Jasmine,,192
+R,rake jasmine,,,192
+S,spyOn,,,192
+J,Jasmine,commonly used features,,193
+J,Jasmine-jQuery,commonly used features,,193
+S,spyOn,,,194
+F,Fixtures,example,,194
+S,stub,example,,194
+J,Jasmine,spies,,194
+F,Fixtures,HTML example,,195
+R,Rotten Potatoes,AJAX Jasmine specs,,195
+J,Jasmine,AJAX testing,,195
+A,Asynchronous JavaScript And XML (AJAX),Jasmine specs,,195
+H,HyperText Markup Language (HTML),fixture example,,195
+U,Uniform Resource Locators (URL),Jasmine,,196
+B,Behavior-driven development (BDD),Jasmine,,196
+J,JavaScript Application Programming Interface (JSAPI),,,196
+S,sandbox methodJasmine,,,197
+H,HyperText Markup Language (HTML),Jasmine-jQuery sandbox method,,197
+T,Testing,client-side form validation,,197
+F,Form validationclient-sidetesting,,,197
+J,Jasmine-jQuery,sandbox method,,197
+G,Google Maps,client-side SPAs,,198
+J,JavaScript Object Notation (JSON),,,198
+A,Application Programming Interface (API),JSON,,198
+F,Framework concepts,JavaScript,single-page apps and JSON APIs,198
+S,Single-page applications (SPAs),,,198
+F,Factories,fixture comparison,,198
+H,HyperText Markup Language (HTML),SPAs,,198
+F,Fixtures,factory comparison,,198
+R,Representational State Transfer (REST),JSON APIs,,199
+D,Deserializing,,,199
+E,eXtensible Markup Language (XML),SPAs,,199
+S,Serializing,,,199
+J,Jasmine-jQuery,fixtures,,200
+D,Document Object Model (DOM),jQuery,,200
+J,JavaScript Object Notation (JSON),response example,,200
+H,HyperText Markup Language (HTML),JSON response,,200
+J,Jasmine-jQuery,fixtures,,201
+F,Fixtures,Jasmine-jQuery,,201
+J,JavaScript Object Notation (JSON),Jasmine-jQueryfixtures,,201
+J,JavaScript Object Notation (JSON),stubbing,,202
+W,Web browsers,AJAX effectiveness,,202
+E,eXtensible Markup Language (XML),stubbing,,202
+H,HyperText Markup Language (HTML),stubbing,,202
+F,failure handler function,,,202
+R,Representational State Transfer (REST),same-origin policy,,202
+S,Same-origin policy,,,202
+A,Asynchronous JavaScript And XML (AJAX),stubbing,,202
+A,Asynchronous JavaScript And XML (AJAX),same-origin policy,,202
+S,Single-page applications (SPAs),,,202
+T,timeout handler function,,,202
+J,JavaScript,same-origin policy,,202
+S,Stubbing,InternetAJAX,,202
+S,success handler function,,,202
+F,FakeWeb,,,202
+A,Asynchronous JavaScript And XML (AJAX),effectiveness,,202
+F,find_in_tmdb,stubbing,,202
+J,JavaScript,silent failures,,203
+J,JavaScript,site enhancement,,203
+J,JavaScript,production code failures,,203
+J,JavaScript,over-reliance on,,204
+J,JavaScript,sync with app,,204
+J,JavaScript,this keyword use,,204
+T,this keyword,incorrect use,,204
+H,HyperText Markup Language (HTML),sync with app,,204
+J,JavaScript,issues with,,205
+L,LiveScript,,,205
+J,JSLint,,,205
+A,ArrayJavaScript,,,205
+V,varJavaScript,,,205
+F,Function scopeJavaScript,,,205
+S,String,JavaScript,,206
+S,String literalsJavaScript,,,206
+F,Framework concepts,JavaScript,overview,206
+P,PhoneGap,,,206
+C,Comparison operatorsJavaScript,,,206
+J,JavaScript,overview,,206
+G,Google Docs,JavaScript,,207
+J,JavaScript engine,,,207
+C,Compilers,JavaScript,,207
+O,OpenCLJavaScript,,,207
+P,Palm webOS,,,207
+S,Sencha Touch,,,207
+G,Google Closure,,,207
+M,Microsoft,JavaScript engines,,207
+P,POSIX,,,207
+J,jQuery Mobile,,,207
+A,AppleJavaScript engines,,,207
+M,Mojito,,,207
+C,CoffeeScript,,,207
+G,Google,JavaScript engines,,207
+W,WebCLJavaScript,,,207
+Y,Yahoo,Mojito,,207
+N,Node.js,,,207
+C,CoffeeScript,,,208
+H,HTML Abstraction Markup Language (Haml),CoffeeScript,,208
+T,Turing Award,WirthNiklaus,,214
+W,WirthNiklaus,,,214
+P,Programming languages,Turing Award,,214
+B,Behavior-driven development (BDD),overview,,216
+U,User stories,overview,,216
+A,Agile stakeholders,,,216
+A,Agile lifecycle,purpose,,216
+A,Agile lifecycle,iteration example,,216
+I,IterationAgile lifecycle,,,216
+R,Requirements basics,BDD and user stories,,216
+I,IterationAgile lifecycle,,,216
+H,Human Computer Interface (HCI),,,217
+R,Rotten Potatoes,BDD,,217
+P,Pastebin,,,217
+T,Test-driven development (TDD),user stories,,217
+V,Verification,BDD,,217
+V,Validation,BDD,,217
+U,User stories,case analysis,,218
+U,Unified Modeling Language (UML),use case diagram,,218
+U,Use-case analysis,,,218
+U,Use case diagram,definition,,218
+T,TimeboxedSMART user stories,,,219
+S,SMART user stories,,,219
+R,Requirements basics,SMART user stories,,219
+S,SpecificSMART user stories,,,219
+R,RelevantSMART user stories,,,219
+A,AchievableSMART user stories,,,219
+F,Facebook,SMART user stories,,219
+M,MeasurableSMART user stories,,,219
+U,User stories,SMART user stories,,219
+P,Pivotal Tracker,user stories,,220
+U,User stories,pointsvelocityPivotal Tracker,,220
+R,Requirements basics,pointsvelocityPivotal Tracker,,220
+B,Backloguser stories,,,220
+V,Velocity,user stories,,220
+F,Fibonacci scale,,,220
+P,Points,user stories,,220
+E,EpicPivotal Tracker,,,221
+P,Pivotal Tracker,UI,,221
+C,Campfire,information sharing,,222
+P,Pivotal Labs,software consultancy,,222
+P,Pivotal Labs,Agile cost estimation,,222
+C,Cost estimation,Agile lifecycle,,222
+G,GitHub,information sharing,,222
+G,Google Docs,information sharing,,222
+A,Agile lifecycle,Pivotal Labs,,222
+R,Requirements basics,Agile cost estimation,,222
+A,Agile Manifesto,cost estimation,,222
+S,ScopingPivotal Labs Agile cost estimation,,,223
+R,Rotten Potatoes,Cucumber scenario,,224
+C,Cucumber,keywords,,224
+C,Cucumber,example,,224
+G,GivenCucumber keyword,,,224
+C,Capybara,overview,,224
+C,Cucumber,overview,,224
+A,Acceptance testing,Cucumber,,224
+I,Integration testing,Cucumber,,224
+T,ThenCucumber keyword,,,224
+S,Step definitions,Cucumber,,224
+R,Rotten Potatoes,Cucumber scenario,,224
+U,User stories,Cucumber and Capybara,,224
+S,Scenarios,Cucumber,,224
+B,ButCucumber keyword,,,224
+F,Feature,Cucumber,,224
+W,When,Cucumber keyword,,224
+S,Scenarios,Cucumber,,224
+A,And,Cucumber keyword,,224
+R,Regular expressions (regexps),Cucumber,,224
+R,Requirements basics,Cucumber and Capybara,,224
+C,Capybara,use,,225
+J,JavaScript,Capybara,,225
+W,Webdriver,Capybara,,225
+B,Bundler,Cucumber,,226
+C,Capybara,running,,226
+R,Requirements basics,Cucumber and Capybara,,226
+S,Step definitions,Cucumber and Capybara,,226
+W,Web browsers,Cucumber and Capybara,,226
+U,User stories,Cucumber and Capybara,,226
+U,Unit testing,Cucumber,,226
+R,Red-Yellow-Green analysisCucumber user stories,,,226
+C,Cucumber,running,,226
+S,Storyboards,Lo-Fi UI,,227
+L,Lo-Fi user interface,sketches and storyboards,,227
+S,Sketches,Lo-Fi UI,,227
+R,Requirements basics,Lo-Fi interface sketches and storyboards,,227
+U,User interface (UI)Lo-Fi UI,,,227
+B,Behavior-driven development (BDD),UI,,227
+C,Cucumber,example,,227
+R,Rotten Potatoes,Lo-Fi UI,,228
+S,Storyboards,Rotten Potatoes,,229
+R,Rotten Potatoes,storyboard,,229
+U,User stories,TMDb example,,230
+L,Lo-Fi user interface,TMDb example,,230
+R,Rotten Potatoes,enhancement,,230
+T,The Open Movie Database (TMDb),user stories/Lo-Fi UI example,,230
+H,HTML Abstraction Markup Language (Haml),Lo-Fi UI,,230
+R,Requirements basics,Rotten Potatoes enhancement,,230
+C,Cascading Style Sheets (CSS),Lo-Fi UI,,230
+B,Behavior-driven development (BDD),TMDb example,,231
+S,Storyboards,Rotten Potatoes,,231
+T,Test-driven development (TDD),TMDb,,231
+R,rake cucumber,,,231
+C,Cucumber,TMDb example,,231
+L,Lo-Fi user interface,TMDb storyboard,,232
+S,Storyboards,TMDb UI,,232
+T,The Open Movie Database (TMDb),UI storyboard,,232
+T,The Open Movie Database (TMDb),Haml code,,233
+H,HTML Abstraction Markup Language (Haml),TMDb code,,233
+T,The Open Movie Database (TMDb),add movie example,,233
+C,Cucumber,example,,234
+T,Test-driven development (TDD),TMDb,,234
+T,The Open Movie Database (TMDb),code example,,234
+D,Don't Repeat Yourself (DRY),TMDb example,,235
+B,Background keywordTMDb example,,,235
+T,The Open Movie Database (TMDb),DRY code,,235
+W,When,imperative vs. declarative scenarios,,236
+S,Scenarios,comparison,,236
+I,Imperative scenarios,,,236
+D,Declarative scenarios,testing,,236
+I,Implicit requirement,,,236
+S,Step definitions,domain language,,236
+A,And,imperative vs. declarative scenarios,,236
+C,Cucumber,scenario comparisons,,236
+R,Rotten Potatoes,scenario comparisons,,236
+R,Requirements basics,scenario comparisons,,236
+U,User stories,scenario comparisons,,236
+D,Domain-specific language (DSL),domain language difference,,236
+I,Integration testing,explicit vs. implicit requirements,,236
+E,Explicit requirement,testing,,236
+A,Acceptance testing,explicit vs. implicit requirements,,236
+D,Domain languageCucumber,,,236
+D,Declarative scenarios,reuse,,237
+S,Scenarios,declarativereuse,,237
+R,Reuse,declarative scenarios,,237
+V,Velocity,plan-and-document,,238
+C,Cucumber,BDD ecosystem,,238
+P,Points,plan-and-document,,238
+R,RailsCasts,,,238
+S,Scenario outlines,,,238
+B,Behavior-driven development (BDD),basic ecosystem,,238
+U,User stories,plan-and-document,,238
+P,Plan-and-Document,major tasks,,238
+P,Plan-and-Document,user stories,,238
+R,Requirements basics,plan-and-document,,238
+S,Software Requirements Specification (SRS),plan-and-document,,239
+S,Scenarios,requirements elicitation,,239
+N,Non-functional requirements,elicitation,,239
+F,Functional requirementselicitation,,,239
+I,Interviewingrequirements elicitation,,,239
+S,Spiral lifecycle,tasks,,239
+W,Waterfall lifecycle,tasks,,239
+R,Rational Unified Process (RUP),tasks,,239
+U,Use casesrequirements elicitation,,,239
+I,IEEE Standard 830-1998,,,239
+A,Agile Manifesto,inspiration for,,239
+I,IEEE Standard 830-1998,,,240
+S,Software Requirements Specification (SRS),IEEE Standard 830-1998,,240
+P,Plan-and-Document,IEEE Standard 830-1998,,240
+A,Alloyrequirements documentation,,,241
+C,Cost estimation,plan-and-document,,241
+P,Plan-and-Document,formal specification languages,,241
+L,Lines of code (LOC),cost estimation,,241
+F,Formal specification languagesrequirements documentation,,,241
+Z,Zrequirements documentation,,,241
+P,Program Evaluation and Review Technique (PERT),,,242
+M,Monitoring,plan-and-document,,242
+P,Plan-and-Document,function points,,242
+C,Constructive Cost Model (COCOMO),,,242
+S,Scheduling,plan-and-document,,242
+F,Function points,,,242
+P,Plan-and-Document,overview,,243
+R,Risk managementplan-and-document,,,244
+R,Risk analysisplan-and-document,,,244
+B,Backwards traceability,,,244
+R,Requirements creep,,,244
+S,Scheduling,change management,,244
+R,Requirements traceability,,,244
+C,Cost estimation,change management,,244
+F,Forward traceability,,,244
+C,Change management,plan-and-document,,244
+S,Software projects,scheduling issues,,245
+S,Scheduling,software projects,,245
+A,Agile lifecycle,plan-and-document comparison,,245
+P,Plan-and-Document,Agile comparison,,245
+C,Cucumber,test-automation,,246
+L,Lo-Fi user interface,sketches without storyboards,,246
+F,Feature,mock-up distinction,,246
+F,Feature,coolsuccessfulness,,246
+A,Automation,tests with Cucumber,,246
+M,Mock-upscompleted feature distinction,,,246
+S,Sketches,storyboard necessity,,246
+S,Storyboards,sketches without,,246
+B,Behavior-driven development (BDD),pros and cons,,247
+E,Expectations,careless use of,,247
+C,Cucumber,BDD pros and cons,,247
+P,Positive expectationscareless use,,,247
+N,Negative expectationscareless use,,,247
+C,Capybara,BDD pros and cons,,247
+C,Capybara,testing tools relationship,,248
+C,Cucumber,testing tools relationship,,248
+R,RSpec,testing tools relationship,,248
+T,Testing,tools relationship,,248
+W,Webdriver,testing tools relationship,,248
+C,Cucumber,BDD pros and cons,,249
+V,Velocity,BDD pros and cons,,249
+P,Points,BDD pros and cons,,249
+P,Plan-and-Document,BDD pros and cons,,249
+G,Google,importance of testing,,249
+A,Agile lifecycle,BDD pros and cons,,249
+T,Testing,Google,,249
+U,User stories,BDD pros and cons,,249
+K,KnuthDonald,,,254
+A,Algorithm analysisTuring Award,,,254
+P,Programming languages,Turing Award,,254
+T,Turing Award,KnuthDonald,,254
+T,The Open Movie Database (TMDb),API,,256
+A,Agile lifecycle,overview,,256
+M,Method,definition,,256
+G,Gems,Ruby,,256
+A,Application Programming Interface (API),RESTful,,256
+F,Functiondefinition,,,256
+R,Rubygems,,,256
+T,Test-driven development (TDD),overview,,256
+R,Representational State Transfer (REST),API,,256
+G,Gems,Rails basics,,257
+R,Representational State Transfer (REST),TMDb API,,257
+A,Application Programming Interface (API),TMDb,,257
+U,Uniform Resource Identifier (URI),TMDb API key,,257
+A,API key,TMDb,,257
+R,Representational State Transfer (REST),APIand developer keys,,257
+D,Developer keysRESTful APIs,,,257
+F,FIRST,,,258
+Q,Quality assurance (QA),overview,,258
+Y,Y2K bug,,,258
+T,The Open Movie Database (TMDb),FIRSTTDDRSpec,,258
+T,Test-driven development (TDD),overview,,258
+A,Automation,FIRST,,258
+R,Red-Green-Refactor,overview,,258
+C,Cucumber,integration tests,,259
+R,Rotten Potatoes,RSpec,,259
+I,Integration testing,RSpec vs. Cucumber,,259
+M,Model-View-Controller (MVC),controller function,,259
+S,search_tmdb,TDD,,259
+E,Embedded domain-specific languageRSpec,,,259
+R,RSpec,integration tests,,259
+B,Bar#foo,,,259
+C,Controllers,function in MVC,,259
+D,Domain-specific language (DSL),RSpec,,259
+E,External domain-specific language,,,259
+I,Internal domain-specific languageRSpec,,,259
+M,MoviesController class,RSpec,,260
+A,Automation,autotest,,260
+A,Autotest,automation with,,260
+A,Autotest,usage,,260
+E,Examples,RSpec,,260
+R,ruby-debug,,,260
+M,MoviesController class,RSpec,,260
+R,RSpec,example,,260
+T,The Open Movie Database (TMDb),TDD cycle,,261
+R,Red-Green-Refactor,TDD,,261
+T,Test-driven development (TDD),Red-Green-Refactor,,261
+S,search_tmdb,Red-Green-Refactor TDD,,261
+D,Double,,,261
+S,Seam,,,261
+V,Views,example development,,262
+P,params[],Red-Green-Refactor TDD,,262
+C,Controllers,development,,262
+E,Examples,RSpec,,262
+M,MoviesController class,Red-Green-Refactor TDD,,262
+S,search_termsRed-Green-Refactor TDD,,,262
+R,RSpec,example development,,262
+M,Mocks,definition,,263
+M,Method stubRed-Green-Refactor TDD,,,263
+E,Examples,completion,,263
+F,find_in_tmdb,Red-Green-Refactor TDD,,263
+D,Double,,,263
+S,search_tmdb,subject code,,263
+C,Controllers,completion,,263
+S,Seam,definition,,263
+S,Subject codeRed-Green-Refactor TDD,,,263
+S,should_receive,Red-Green-Refactor TDD,,263
+A,and_returnRed-Green-Refactor TDD,,,264
+N,nil,Red-Green-Refactor TDD,,264
+R,RSpec,Red-Green-Refactor TDD,,264
+T,TeardownRSpec,,,264
+S,stub,TMDb,,265
+M,Match-conditionTMDb,,,265
+R,RSpec,response,,265
+O,Object-orientation (OO),seams,,265
+M,Mocks,TMDb,,265
+S,Seam,language variations,,265
+T,The Open Movie Database (TMDb),expectationsmocksstubssetupteardown,,265
+E,Expectations,,,265
+S,search_tmdb,controller specs and refactoring,,265
+S,should_notTMDb,,,265
+P,Programming languages,seams,,265
+P,post,TMDb,,265
+R,responsecontroller specs and refactoring,,,265
+S,should,TMDb,,265
+G,get,TMDb,,265
+D,describe,TMDb,,266
+E,Examples,sample code,,266
+S,should_receive,TMDb,,266
+F,fake_resultsTMDb,,,266
+B,before block,TMDb,,266
+B,before block,TMDb,,267
+D,describe,TMDb,,267
+C,Controllers,TMDb example,,267
+A,assigns()RSpec,,,267
+B,before block,TMDb,,267
+D,Don't Repeat Yourself (DRY),TMDb controller example,,267
+E,Examples,TMDb controller,,267
+R,Red-Green-Refactor,final task,,267
+F,find_in_tmdb,Red-Green-Refactor TDD,,267
+F,find_in_tmdb,usage,,267
+S,search_tmdb,code sample,,268
+S,search_tmdb,specs,,268
+D,Don't Repeat Yourself (DRY),search_tmdb,,268
+M,Mocks,Movie object,,269
+T,The Open Movie Database (TMDb),fixtures and factories,,269
+F,Factories,TMDb,,269
+M,Movie class,mock usage,,269
+F,Fixtures,,,269
+D,Don't Repeat Yourself (DRY),factory,,270
+F,Fixtures,YAML files,,270
+Y,Yet Another Markup Language (YAML),fixtures,,270
+I,Independence,fixtures,,270
+D,Database transactionspec run in,,,270
+R,RSpec,function,,270
+F,FactoryGirl,,,270
+S,should,RSpec,,270
+Y,Yet Another Markup Language (YAML),fixtures,,270
+B,before block,factory,,270
+I,Independence,factories,,271
+F,FactoryGirl,,,271
+R,Ruby on Rails basics,dynamic language features,,271
+D,Dynamic language features,readable specs,,271
+F,Factories,example,,271
+D,describe,TMDb,,272
+I,Implicit requirement,,,272
+T,The Open Movie Database (TMDb),implicit requirements,,272
+T,Test-driven development (TDD),TMDb,,272
+F,find_in_tmdb,TDD,,272
+R,RuntimeErrorTMDb,,,273
+A,API key,TMDb,,273
+E,Explicit requirement,TMDb,,273
+E,Exceptions,TMDb,,274
+L,lambdaTMDb,,,274
+A,ArgumentErrorTMDb,,,274
+A,API key,TMDb,,274
+F,find_in_tmdb,exception,,274
+D,Declared exceptionsundeclared comparison,,,275
+E,Exceptions,declared vs. undeclared,,275
+J,Java,exceptions,,275
+E,Exceptions,TMDb,,275
+U,Undeclared exceptions,,,275
+A,ArgumentErrorTMDb,,,276
+A,API key,TMDb,,276
+R,RuntimeErrorTMDb,,,276
+T,The Open Movie Database (TMDb),stubbing the Internet,,276
+S,Stubbing,Internet for TMDb,,276
+F,find_in_tmdb,Internet stub,,276
+A,API key,TMDb,,277
+E,Exceptions,TMDb,,277
+R,RuntimeErrorTMDb,,,278
+U,Uniform Resource Identifier (URI),FakeWeb,,278
+A,ArgumentErrorTMDb,,,278
+R,Representational State Transfer (REST),TMDb,,278
+F,FakeWeb,,,278
+E,Exceptions,TMDb,,278
+R,Red-Refactor-Green-Refactorexisting code,,,279
+A,API key,TMDb,,279
+A,API key,refactoring,,279
+R,Refactoring,existing code,,279
+R,RSpec,method listing,,280
+M,Method,RSpec listing,,280
+E,Expectations,RSpec,,281
+R,RSpec,expectations,,281
+R,RSpec,method listing,,281
+M,Method,RSpec listing,,281
+E,Entry/Exit coverage (S1),,,282
+S,Statement coverage (C0),definition,,282
+C,Code-to-test ratio,definition,,282
+C,C0 coverage,,,282
+C,C1 coverage,,,282
+B,Branch coverage (C1),,,282
+C,Coverage concepts,,,282
+I,Integration testing,unit test comparison,,282
+U,Unit testing,integration test comparison,,282
+C,Coverage concepts,,,282
+S,S1 coverage,,,282
+M,Method coverage (S0),,,282
+S,S0 coverage,,,282
+C,Call coverage (S1),,,282
+S,SimpleCovC0 coverage check,,,283
+M,Modified Condition/Decision Coverage (MCDC),,,283
+C,C2 coverage,,,283
+F,Functional tests,definition,,283
+P,post,functional tests,,283
+S,Statement coverage (C0),check with SimpleCov,,283
+G,get,functional tests,,283
+C,C0 coverage,,,283
+P,Path coverage (C2),,,283
+F,Functional tests,testing method comparison,,284
+T,Testing,method comparison,,284
+U,Unit testing,testing method comparison,,284
+W,Whole-system teststesting method comparison,,,284
+T,Testing,approaches and terminology,,284
+I,Integration testing,testing method comparison,,284
+F,find_in_tmdb,functional tests,,284
+G,Glass-box tests,,,285
+B,Basic blocks,testing approaches,,285
+D,Dumb fuzzing,,,285
+C,Control flow coverage,,,285
+B,Black-box tests,,,285
+S,Smart fuzzing,,,285
+F,Fuzz testing,definition,,285
+D,Define-use (DU) coverage,,,285
+U,Unix,fuzz testing,,285
+W,White-box tests,definition,,285
+M,Microsoft,fuzz testing,,285
+M,Mutation testing,definition,,285
+I,Integration testing,types,,286
+B,Bottom-up integration,,,286
+S,Sandwich integration,,,286
+U,Uniform Resource Identifier (URI),fuzz testing,,286
+T,Top-down integration,,,286
+T,Testing,plan-and-document perspective,,286
+P,Plan-and-Document,testing overview,,286
+S,SQL injection,fuzz testing,,286
+C,Cross-site scripting,fuzz testing,,286
+S,Software Requirements Specification (SRS),plan-and-document and testing,,286
+I,IEEE Standard 829-2008,,,287
+D,DijkstraEdsger W.,,,287
+T,Turing Award,DijkstraEdsger W.,,287
+M,Model checking,,,287
+A,Automatic theorem proving,,,287
+F,Formal methods,definition,,287
+P,Programming languages,Turing Award,,287
+F,Formal methods,NASA cost example,,287
+P,Plan-and-Document,IEEE Standard 829-2008,,288
+I,IEEE Standard 829-2008,,,288
+P,Plan-and-Document,Agile testing comparison,,289
+A,Agile lifecycle,plan-and-document comparison,,289
+T,Testing,plan-and-document vs. Agile,,289
+T,Testing,reliance on test type,,290
+T,Testing,over-stubbing issues,,290
+T,Test coverage,"""no bug"" fallacies",,290
+G,Google,testing variety,,290
+C,Code-to-test ratio,minimum requirements,,290
+T,Testing,test code amount,,290
+T,Test coverage,pass before shipment,,290
+S,Stubbing,testing issues,,290
+B,before(:all)dependencies,,,291
+T,Test-driven development (TDD),conventional debugging comparison,,291
+T,Testing,before/after coding,,291
+M,Mock trainwreck,,,291
+D,Debugging,conventionalTDD comparison,,291
+T,Turing Award,LampsonButler,,296
+L,LampsonButler,,,296
+L,Legacy code,characteristics,,298
+M,Maintainabilitycategories,,,298
+A,Agile lifecycle,legacy code,,298
+A,Agile lifecycle,overview,,298
+C,Corrective maintenance,,,298
+P,Perfective maintenance,,,298
+M,Maintenance phase,legacy code,,298
+A,Agile lifecycle,working code documentation,,299
+R,Refactoring,definition,,299
+P,Patcheslegacy code,,,299
+A,Adaptive maintenance,,,299
+P,Preventive maintenance,,,299
+D,Documentation,working code,,299
+C,Characterization tests,legacy code,,300
+R,Refactoring,change points,,300
+T,Test-driven development (TDD),legacy code,,300
+B,Behavior-driven development (BDD),legacy code,,300
+C,Change pointslegacy code,,,300
+M,Maintenance phase,legacy code exploration,,301
+D,Documentation,embedded,,301
+R,RDoc,,,301
+E,Embedded documentationRDoc,,,301
+S,Scratch branchlegacy code exploration,,,301
+L,Legacy code,exploration,,301
+U,Unified Modeling Language (UML),legacy code exploration,,302
+D,Development databaselegacy code exploration,,,302
+D,Databases,legacy code exploration,,302
+F,Fixtures,legacy code exploration,,302
+P,Production databaselegacy code exploration,,,302
+U,Unified Modeling Language (UML),legacy code exploration,,303
+C,Change pointslegacy code,,,303
+L,Lines of code (LOC),legacy code exploration,,303
+C,Characterization tests,creation,,304
+M,Maintenance phase,characterization tests,,304
+C,Class-Responsibility-Collaborator (CRC) cards,,,304
+C,Class-Responsibility-Collaborator (CRC) cards,,,305
+V,Voucher classCRC card,,,305
+C,convert method,characterization tests,,306
+U,Unit testing,characterization tests,,306
+C,Cucumber,characterization tests,,306
+F,Functional tests,characterization tests,,306
+I,Integration testing,characterization tests,,306
+M,Microsoft Zune,,,306
+L,Legacy code,Microsoft Zune,,306
+C,C0 coverage,,,307
+M,Microsoft Zune,,,307
+S,Statement coverage (C0),example,,307
+T,TimeSetter,,,307
+C,Characterization tests,TimeSetter,,307
+A,Abstraction,comments,,308
+M,Maintenance phase,comments,,308
+C,Comments,bad example,,308
+C,Comments,overview,,308
+C,Comments,level of abstraction,,308
+T,Testing,pending specs,,308
+C,Code smells,overview,,309
+B,Beautiful code,maintenance costs,,309
+S,Software metrics,overview,,309
+M,Maintenance phase,metricscode smellsSOFA,,309
+S,SOFA,overview,,309
+C,Control flow graph,,,310
+A,ABC score,definition,,310
+A,ABC score,example,,310
+C,Control flow graph,,,310
+C,Cyclomatic complexity,invention,,310
+C,Code smells,definition,,310
+C,Cyclomatic complexity,example,,310
+C,Cyclomatic complexity,definition,,310
+P,Plan-and-Document,software metrics,,310
+M,McCabeFrankSr.,,,310
+B,Basic blocks,control flow graph,,310
+S,Software metrics,definition,,310
+S,SOFA,definition,,311
+R,Refactoring,code smellsSOFA,,311
+S,Software metrics,common metrics,,311
+D,Design smells,definition,,311
+C,Code smells,examples,,311
+C,convert method,example,,312
+M,Method,length,,312
+S,SOFA,method length,,312
+V,Variable naming,guidelines,,312
+L,Lines of code (LOC),method length,,312
+R,Refactoring,method-level,,313
+S,Seam,dependency replacement,,313
+M,Maintenance phase,refactoring,,313
+D,Dependencies,replacing with seams,,313
+C,convert method,refactoring,,314
+A,ABC score,method-level refactoring,,314
+D,Decompose Conditional,refactoring,,314
+R,Refactoring,definition,,314
+E,Extract Method,refactoring,,314
+L,Long methodcode smell,,,314
+E,Extract Method,refactoring,,315
+R,Refactoring,examples,,315
+D,Decompose Conditional,application,,316
+C,Cohesion,refactoring,,316
+T,TimeSetter,,,316
+M,Magic numbercode smells,,,316
+E,Extract Method,example,,316
+A,ABC score,method-level refactoring,,316
+E,Extract Method,application,,316
+E,Extract Method,example,,317
+D,Decompose Conditional,example,,317
+C,convert method,refactoring,,318
+R,Refactoring,clean code example,,318
+P,Programming languages,refactoring,,319
+M,Maintenance phase,plan-and-document,,319
+G,Generalize Typerefactoring,,,319
+E,Encapsulate Fieldrefactoring,,,319
+M,Maintenance software engineers,,,319
+M,Maintenance manager,,,319
+P,Plan-and-Document,maintenance phase,,319
+R,Refactoring,language choice,,319
+W,Working software,maintenance,,320
+M,Maintenance requests,,,320
+C,Change request forms,,,320
+C,Change management,plan-and-document,,320
+C,Change requestsmaintenance,,,320
+A,Agile lifecycle,maintenance,,320
+R,Regression testing,maintenance,,320
+C,Customer collaborationmaintenance,,,320
+I,IEEE 1219-1998,,,321
+P,Plan-and-Document,maintenance plan example,,321
+C,Change control boardmaintenance requests,,,321
+M,Maintenance phase,IEEE 1219-1998,,321
+R,Reengineering,,,322
+B,Backfilling,,,322
+W,Working software,fix vs. redesign,,324
+R,Refactoring,resisting enhancements,,324
+C,Code smells,avoidance,,324
+S,Software metrics,rigid adherence,,324
+R,Refactoring,continuous,,325
+T,Test-driven development (TDD),continuous refactoring,,325
+A,Agile lifecycle,continuous refactoring,,325
+R,Refactoring,examples,,326
+C,Code smells,examples,,326
+T,Turing Award,BrooksFredJr.,,330
+B,BrooksFredJr.,,,330
+S,SprintScrum,,,332
+P,Project management,two-pizza team and Scrum,,332
+S,Scrum,,,332
+T,Two-pizza teams,,,332
+B,BezosJeff,,,332
+P,Product ownerScrum,,,333
+S,Style sheetsprogramming languages,,,333
+P,Programming languages,style sheets,,333
+S,ScrumMaster,,,333
+T,Teams,Scrum,,333
+P,Project management,pair programming,,333
+C,Coding standards,,,333
+G,Google,coding standards,,333
+E,Extreme Programming (XP),pair programming,,333
+P,Pair programming,,,333
+N,Navigatorpair programming,,,334
+P,Pivotal Labs,pair programming,,334
+P,Pair programming,example,,334
+O,Observer pattern,pair programming,,334
+P,Promiscuous pairing,,,334
+D,Driverpair programming,,,334
+M,Microsoft,pair programming,,334
+T,Twitter,pair programming,,335
+C,Code reviews,necessity,,335
+P,Pull requestsGitHub,,,335
+F,Facebook,pair programming,,335
+G,GitHub,code reviews,,335
+A,Agile lifecycle,code reviews,,335
+C,Campfire,pull requests,,335
+P,Project management,code reviews,,335
+C,Cloneversion control,,,336
+T,Two-pizza teams,,,336
+O,Origin,version control,,336
+S,Subversion,,,336
+M,Merge conflictsversion control,,,336
+P,Pull changesversion control,,,336
+S,Shared-repositoryversion control,,,336
+M,Merging,version control,,336
+V,Version control systems (VCSs),early VCSs,,336
+V,Version control,merge conflicts,,336
+P,Push changes,version control,,336
+B,Branches,version control,,336
+R,Repositories,version control,,336
+P,ProjectLocker,version control,,336
+P,Project management,version control,,336
+G,Git,merging conflicts,,336
+G,GitHub,version control,,336
+G,git pull,,,337
+G,git fetch,,,337
+G,git merge,,,337
+R,Rebasing,Git,,337
+C,Commit squashingGit,,,337
+G,Git,merge commands,,338
+G,Git,commit commands,,338
+G,Git,change tracking,,338
+G,GitHub,remote collaboration,,339
+F,Fork-and-pullremote collaboration,,,339
+R,Repositories,remote collaboration,,339
+R,Remote collaborationGit,,,339
+P,Project management,Git branches,,339
+B,Branches,effective use,,339
+P,Public reposremote collaboration,,,339
+C,Current branch,,,340
+G,GitFlowbranch management,,,340
+B,Branches,commit example,,340
+R,Rotten Potatoes,commit example,,340
+F,Flickrbranch management,,,340
+R,Release branch,definition,,340
+F,Feature branch,,,340
+C,Commit,branch example,,340
+M,Merge-commit,,,340
+R,Release branch,example,,341
+G,Git,branch use,,341
+B,Branches,Git,,341
+R,Rotten Potatoes,release branch example,,341
+M,Merging,branch management,,342
+B,Branches,Git commands,,342
+G,Git,branch commands,,342
+B,Branches,long-lived,,343
+C,Crisscross mergeGit,,,343
+G,Git,branches and rebasing,,343
+Q,Quality assurance (QA),bugs,,343
+B,Bugs,reporting and fixing,,343
+R,Rebasing,definition,,343
+P,Project management,bugs,,343
+G,GitHub,bug testing,,344
+F,Functional tests,bugs,,344
+B,Behavior-driven development (BDD),bug testing,,344
+P,Pivotal Tracker,bugs,,344
+C,Cucumber,bug testing,,344
+A,Amazon,severity 1 bugs,,344
+R,RSpec,bug testing,,344
+I,Integration testing,bugs,,344
+T,Testing,bugs,,344
+U,Unit testing,bugs,,344
+S,Severity 1 bugsAmazon,,,344
+T,Test-driven development (TDD),bugs,,344
+P,Plan-and-Document,project management,,345
+P,Project management,plan-and-document,,345
+I,IEEE 16326-2009,,,346
+P,Project management,IEEE 16326-2009,,346
+S,SAMOSASteam management,,,347
+T,Teams,plan-and-document,,347
+C,Constructive confrontationpeople management,,,348
+I,Inspectionsplan-and-document,,,348
+D,Design reviews,plan-and-document,,348
+R,Rational Unified Process (RUP),design/code reviews,,348
+W,Waterfall lifecycle,design/code reviews,,348
+S,Spiral lifecycle,design/code reviews,,348
+P,People managementplan-and-document,,,348
+C,Code reviews,plan-and-document,,348
+S,Software metrics,plan-and-document,,348
+V,Validation,plan-and-document,,349
+V,Verification,plan-and-document,,349
+I,IEEE 1012-2012,,,350
+V,Validation,IEEE 1012-2012,,350
+V,Verification,IEEE 1012-2012,,350
+R,Release management,definition,,351
+S,System building,,,351
+C,Configuration management,varieties,,351
+V,Version management,,,351
+C,Change management,definition,,351
+C,Configuration management,IEEE 828-2012,,352
+I,IEEE 828-2012,,,352
+P,Pair programming,member dynamics,,353
+P,Project management,overview,,354
+V,Version control,history,,354
+O,Origin,sync issues,,354
+B,Branches,changes to master,,354
+T,Teams,dividing workload,,354
+B,Branches,merging or switching,,354
+T,Teams,overview,,354
+M,Merging,branchespitfalls,,354
+S,Software projects,management basics,,355
+C,Concurrent Versions System (CVS),,,355
+P,Plan-and-Document,project management,,355
+R,Revision Control System (RCS),,,355
+S,Subversion,,,355
+S,Source Code Control System (SCCS),,,355
+T,Turing Award,KahanWilliam,,360
+K,KahanWilliam,,,360
+D,Design patterns,classes,,362
+A,Antipatterns,overview,,362
+A,Agile lifecycle,overview,,362
+S,SOLID,basic concept,,362
+R,Ruby on Rails basics,GoF design patterns,,363
+S,SOLID,acronym variations,,363
+A,Antipatterns,definition,,363
+D,Design smells,definition,,363
+G,GoF design patterns,,,363
+S,Structural patternsGoF,,,364
+D,Design patterns,GoF,,364
+B,Behavioral patternsGoF,,,364
+G,GoF design patterns,,,364
+S,SOLID,GoF design patterns,,364
+C,Creational patternsGoF,,,364
+M,MartinRobert C.,,,365
+I,ImmobilitySOLID,,,365
+S,Software Craftsmanship movement,,,365
+R,RepetitionSOLID,,,365
+S,SOLID,definition,,365
+C,ComplexitySOLID,,,365
+S,SOLID,design guidelines,,365
+V,ViscositySOLID,,,365
+J,JacobsonIvar,,,366
+R,RumbaughJames,,,366
+P,Patterns,types,,366
+B,BoochGrady,,,366
+D,Design patterns,UML,,366
+U,Unified Modeling Language (UML),overview,,366
+I,Interaction diagramsUML,,,367
+U,Unified Modeling Language (UML),diagram descriptions,,367
+C,Class diagramUML,,,367
+C,Cucumber,UML diagrams,,367
+S,Structure diagramsUML,,,367
+B,Behavior diagramsUML,,,367
+U,Use case diagram,UML,,367
+U,Unified Modeling Language (UML),class diagram,,367
+U,UMPLE,,,368
+A,AggregationUML,,,368
+U,Unified Modeling Language (UML),usage decisions,,368
+C,Composition,UML,,368
+M,MultiplicityUML,,,368
+C,Class diagramUML,,,368
+C,Cohesion,example,,369
+C,Cohesion,definition,,369
+D,Data Clumpdesign smell,,,369
+D,Design patterns,SRP,,369
+I,Instance variables,,,369
+L,Lack of Cohesion of Methods (LCOM),,,369
+A,Antipatterns,Data Clump,,369
+D,Design smells,Data Clump,,369
+S,SOLID,SRP,,369
+S,Single Responsibility Principle (SRP),,,369
+R,Representational State Transfer (REST),SRP,,369
+C,Class variables,cohesion,,369
+L,Lack of Cohesion of Methods (LCOM),,,369
+R,Refactoring,Extract Class,,370
+E,Extract Classrefactoring,,,370
+F,Formatter class,OCP,,371
+O,Open/Closed Principle (OCP),,,371
+I,Interface Segregation Principle (ISP),,,371
+C,Class diagramUML,,,371
+A,Abstract factory pattern,OCP,,371
+T,Template Method pattern,OCP,,371
+U,Unified Modeling Language (UML),class diagram,,371
+S,Strategy pattern,OCP,,371
+S,SOLID,OCP,,371
+S,SOLID,ISP,,371
+D,Design patterns,OCP,,371
+R,Ruby on Rails basics,metaprogramming,,372
+A,Abstract factory pattern,implementation,,372
+M,Metaprogramming,abstract factory pattern,,372
+F,Formatter class,example,,372
+D,Duck typing,abstract factory pattern,,372
+S,Shotgun surgery,,,372
+S,Strategy pattern,OmniAuth,,373
+O,OmniAuth,Strategy pattern,,373
+H,HTTP request,Rack,,373
+R,Rack application server,Decorator,,373
+T,Template Method pattern,delegation,,373
+D,Delegation pattern,example,,373
+P,PdfFormatter,,,373
+D,Decorator pattern,function,,373
+A,ActiveSupport,decoration,,373
+A,alias_method_chain,decoration,,373
+P,PdfFormatter,,,374
+D,Decorator pattern,application,,374
+L,Liskov Substitution Principle (LSP),example,,374
+F,Formatter class,design patterns,,374
+I,Inheritance,design patterns,,374
+D,Decorator pattern,example,,374
+S,send_email,,,375
+S,Secure Sockets Layer (SSL),decorators,,375
+A,alias_method_chain,example,,375
+L,LiskovBarbara,,,376
+D,Design patterns,LSP,,376
+R,Rectangle,example,,376
+S,Square,LSP,,376
+L,Liskov Substitution Principle (LSP),overview,,376
+R,Rectangle,LSP,,376
+A,ActiveSupport,delegation,,377
+C,Class diagramUML,,,377
+U,Unified Modeling Language (UML),class diagram,,377
+I,Inheritance,composition/delegation preference,,377
+C,Composition,preference to inheritance,,377
+D,Delegation pattern,preference to inheritance,,377
+L,Liskov Substitution Principle (LSP),UML class diagram,,377
+R,Rotten Potatoes,DIP,,378
+A,AmikoDIP,,,378
+R,Rectangle,duck typing,,378
+D,Delegation pattern,duck typing,,378
+S,Square,duck typing,,378
+C,Composition,duck typing,,378
+D,Duck typing,composition/delegation,,378
+D,Design patterns,DIP,,378
+D,Dependency Injection Principle (DIP),,,378
+A,Adapter patternDIP,,,379
+A,ActiveRecord,DIP,,379
+S,send_email,,,379
+A,AmikoAdapterDIP,,,379
+R,Representational State Transfer (REST),Amiko,,379
+M,MailerMonkey,,,379
+F,Fa&ccedil;ade patternDIP,,,379
+A,Application Programming Interface (API),DIP,,379
+P,Proxy patternDIP,,,380
+N,Null Object pattern,,,380
+N,Null Object pattern,,,380
+A,Adapter patternDIP,,,381
+A,AmikoAdapterDIP,,,381
+O,Open/Closed Principle (OCP),,,381
+P,Patterns,AmikoAdapter,,381
+D,Dependency Injection Principle (DIP),example,,381
+D,Dependency Injection Principle (DIP),OCP impact,,381
+G,GenericMailerDIP,,,381
+M,MailerMonkey,,,381
+A,Abstract factory pattern,DIP and OCP,,381
+F,Fa&ccedil;ade patternDIP,,,381
+D,Demeter Principle,violation example,,382
+D,Design patterns,Demeter Principle,,382
+D,Demeter Project,,,382
+L,Law of Demeter,,,382
+R,Rotten Potatoes,Demeter Principle,,382
+D,Design smells,Demeter violations,,382
+D,Demeter Principle,overview,,382
+I,Inappropriate intimacyDemeter violations,,,382
+M,Mock trainwreck,,,383
+F,Feature envy,,,383
+D,Demeter Principle,behavior example,,383
+R,Ruby on Rails basics,observer pattern,,384
+O,Observer pattern,Smalltalk implementation,,384
+O,Observer pattern,example,,384
+S,Smalltalk,,,384
+O,Observer pattern,Demeter Principle,,384
+I,Iterators,Demeter Principle,,384
+M,Model-View-Controller (MVC),observer pattern,,384
+D,Duck typing,design pattern expression,,385
+R,Ruby on Rails basics,design pattern expression,,385
+M,Mix-ins,design pattern expression,,385
+O,Observer pattern,expression,,385
+V,Visitor patternexpression,,,385
+D,Design patterns,expression,,385
+I,Iterators,expression,,385
+D,Design patterns,plan-and-document,,386
+P,Plan-and-Document,design patterns,,386
+A,Agile lifecycle,plan-and-document,,386
+B,Big Design Up Front (BDUF),,,386
+D,Design reviews,plan-and-document,,386
+S,Software Requirements Specification (SRS),design patterns,,386
+D,Dynamic language features,SOLID,,387
+P,Patterns,reliance on,,387
+S,SOLID,dynamic languages,,387
+U,Unified Modeling Language (UML),over-reliance on,,387
+C,Class,private methods,,388
+P,Private methodsclasses,,,388
+F,Factories,initialize,,388
+I,initialize,factory patterns,,388
+M,Method,privatein class,,388
+P,Patterns,factoryinitialize,,388
+D,Design smells,fixing,,390
+T,Turing Award,LiskovBarbara,,392
+L,LiskovBarbara,,,392
+P,Programming languages,Turing Award,,392
+I,Internet Service Provider (ISP)deployment,,,394
+N,Non-functional requirements,deployment,,394
+D,Deployment,overview,,394
+V,Virtual Private Server (VPS),,,394
+A,Agile lifecycle,overview,,394
+P,Platform as a Service (PaaS),deployment,,395
+A,Authentication,definition,,395
+M,Microsoft Azure,,,395
+M,Microsoft,public cloud,,395
+R,Responsiveness,definition,,395
+A,Availability,definition,,395
+H,Heroku,PaaS,,395
+F,Facebook Connect,authentication,,395
+C,Cloud computing,PaaS,,395
+R,Release management,definition,,395
+P,Privacy,,,395
+A,Amazon,public cloud,,395
+C,CloudFoundry,,,395
+S,Scalability,definition,,395
+D,Data integrity,,,396
+R,Responsiveness,quantification,,396
+N,Non-functional requirements,responsiveness quantification,,396
+O,OpenID,,,396
+T,Throughputresponsiveness,,,396
+L,Latency,responsiveness,,396
+S,Service level objective (SLO),,,397
+R,RightScale,,,397
+S,Service level agreement (SLA),,,397
+A,Amazon Elastic Compute Cloud (EC2),RightScale,,397
+S,Service level objective (SLO),,,397
+G,Google,responsiveness,,397
+R,Responsiveness,Google,,397
+A,Application Performance Index (Apdex),,,397
+C,Continuous integration (CI) testing,deployment,,398
+A,Agile lifecycle,deployment,,398
+C,Continuous deployment,,,398
+H,Heroku,deployment automation,,398
+C,Capistrano,,,398
+N,Non-functional requirements,continuous integration and deployment,,398
+D,Deployment,continuous,,398
+S,Salesforce,,,399
+M,Malwaredeployment,,,399
+R,Rack application server,continuous integration,,399
+W,Web browsers,continuous integration,,399
+C,Continuous integration (CI) testing,compiled languages,,399
+S,Stresscontinuous integration,,,399
+H,Hardeningcontinuous integration,,,399
+P,Post-receive URI repoGitHub,,,399
+V,Version compatibilitycontinuous integration,,,399
+S,Service Oriented Architecture (SOA),continuous integration,,399
+U,Uniform Resource Identifier (URI),post-receiveGitHub,,399
+C,Compiled languagescontinuous integration,,,399
+J,Java,continuous integration,,399
+G,GitHub,continuous integration,,399
+J,JavaScript,deployment,,399
+D,Deployment,feature flags,,400
+A,Atomic migration,,,400
+M,Migrations,atomic,,400
+N,Non-functional requirements,releases and feature flags,,400
+F,Feature flags,deployment,,400
+R,Rotten Potatoes,migrations,,400
+S,Staging site,,,400
+M,Migrations,example,,401
+F,Feature flags,example,,401
+D,Down-migration,,,402
+P,Preflight checkingfeature flags,,,403
+C,Complex featurefeature flags,,,403
+A,A/B testingfeature flags,,,403
+F,Feature flags,uses,,403
+N,Non-functional requirements,availability quantification,,404
+P,Platform as a Service (PaaS),rolling reboot,,404
+A,Availability,quantification,,404
+L,Latency,overprovisioning,,404
+R,Rolling reboot,,,404
+G,Google Apps,availability,,404
+D,Defensive programmingbasic philosophy,,,404
+S,Software rejuvenation,,,404
+K,Key Performance Indicators (KPIs),,,405
+R,Remote Performance Monitoring (RPM),,,405
+P,Profiling,,,405
+N,Non-functional requirements,monitoring and bottlenecks,,405
+B,Bottlenecksfinding,,,405
+P,Platform as a Service (PaaS),monitoring,,405
+M,Monitoring,overview,,405
+A,Application Performance Monitoring (APM),,,405
+I,Internal monitoring,,,405
+N,New Relic,,,405
+S,Stress testingmonitoring,,,406
+M,Monitoring,types,,406
+E,External monitoring,,,406
+L,Longevity testingmonitoring,,,406
+A,Active monitoring,,,406
+H,httperf,,,406
+P,Probing,,,406
+U,Uniform Resource Identifier (URI),httperf,,406
+N,Non-functional requirements,caching,,407
+H,HTML Abstraction Markup Language (Haml),caching,,407
+C,Caching,rendering and database improvement,,407
+R,Renderingcaching,,,407
+R,Rails concepts,caching,,407
+P,Performance,databasecaching,,407
+D,Databases,caching,,407
+E,Expiration,caching,,407
+C,Cache invalidation,,,407
+N,Naming,caching,,407
+T,Three-tier architecture,caching,,407
+P,Page caching,,,408
+C,Caching,example,,408
+A,ActiveRecord,caching,,408
+B,Before-filters,caching,,408
+A,Action caching,,,408
+R,Representational State Transfer (REST),caching,,408
+D,Decorator pattern,caching,,409
+B,Before-filters,caching,,409
+C,Caching,code example,,409
+S,show,caching,,409
+A,Around-filtercaching,,,409
+A,ActiveRecord,caching,,409
+A,Action caching,,,409
+A,Amazon CloudFront,,,410
+C,CloudFront,,,410
+L,Lazy evaluation,caching,,410
+C,Content delivery network (CDN),,,410
+F,Fragment caching,,,410
+A,ActiveRelation (ARel),caching,,410
+H,Heroku,caching,,411
+A,Action caching,,,411
+D,Dependency Injection Principle (DIP),cached object storage,,411
+P,Page caching,,,411
+N,Non-functional requirements,abusive database queries,,411
+H,Heroku,abusive database queries,,411
+D,Databases,abusive queries,,411
+A,Amazon Web Services,abusive database queries,,411
+M,Microsoft Azure,,,411
+C,Caching,object storage,,411
+N,n + 1 queries,,,412
+F,Full table scan,,,412
+E,Eager load query,,,412
+D,Databases,abusive queries,,412
+T,Table scandatabases,,,412
+D,Database index,example,,412
+H,Hashingabusive database queries,,,413
+P,PostgreSQL,,,413
+D,Database index,abusive queries,,413
+I,IndexingHeroku,,,413
+H,Heroku,indexing,,413
+F,Foreign keys,abusive database queries,,413
+D,Data protectionsecurity,,,414
+P,PostgreSQL,,,414
+T,Turing Award,AdlemanLeonard,,414
+R,RivestRonald,,,414
+P,Principle of fail-safe defaults,,,414
+N,Non-functional requirements,security,,414
+S,Security,customer data protection,,414
+M,MySQL,EXPLAIN,,414
+E,EXPLAINSQL,,,414
+P,Principle of least privilege,security,,414
+R,RSA algorithm,,,414
+P,Public-key cryptography,Turing Award,,414
+Q,Query planEXPLAIN,,,414
+S,ShamirAdi,,,414
+A,AdlemanLeonard,,,414
+P,Platform as a Service (PaaS),data encryption,,414
+T,Turing Award,ShamirAdi,,414
+T,Turing Award,RivestRonald,,414
+P,Principle of psychological acceptability,,,414
+S,Structured Query Language (SQL),EXPLAIN,,414
+E,Encryptiondata protection,,,414
+S,ssh-keygen,,,415
+V,VeriSign,,,415
+S,SSL certificate,,,415
+T,Transport Layer Security (TLS),,,415
+S,Symmetric-key cryptography,,,415
+C,Cross-site request forgery (CSRF),,,415
+S,Secretencryption,,,415
+P,Public-key cryptography,basic concept,,415
+B,Before-filters,force_ssl,,415
+A,Archetypal principals,,,415
+P,Principal,public-key cryptography,,415
+F,force_ssl,,,415
+K,Keypair,,,415
+R,RSA algorithm,,,415
+C,Certificate authority (CA),,,415
+S,Secure Sockets Layer (SSL),data encryption,,415
+R,Representational State Transfer (REST),CSRF,,416
+U,Uniform Resource Identifier (URI),CSRF,,416
+P,protect_from_forgery,,,416
+S,SQL injection,code example,,416
+C,Cross-site scripting,characteristics,,416
+C,csrf_meta_tags,,,416
+S,SQL injection,characteristics,,416
+F,Flash,XSS security issues,,417
+A,ActiveX,,,417
+H,HyperText Markup Language (HTML),security vulnerabilities,,417
+H,Heroku,Progstr-Filer addon,,417
+D,Denial-of-service attack,,,417
+C,Controllers,private methodssecurity issues,,417
+V,VBScript,,,417
+X,XSSsecurity issues,,,417
+P,Payment Card Industry,,,417
+S,Stripe,,,417
+P,PayPal,,,417
+A,Amazon,page reload issues,,417
+S,Symantec,,,417
+J,JavaScript,XSS security issues,,417
+E,eRB renderer,,,417
+P,Progstr-Filer,,,417
+S,Security,Rails defenses,,418
+R,Rails concepts,security defenses,,418
+A,Amazon,cost of being down,,419
+P,Plan-and-Document,non-functional requirements,,419
+N,Non-functional requirements,plan-and-document,,419
+R,Release management,plan-and-document,,419
+P,Performance,plan-and-document,,419
+N,Nebraska Student Information System,,,419
+I,ISO 9001 standard,,,420
+C,Common Vulnerabilities and Exposures database,,,420
+B,Buffer overflow attack,,,420
+S,Security,plan-and-document,,420
+M,Mean time to failure (MTTF),,,420
+M,Mean time between repairs (MTTR),,,420
+R,Reliability,plan-and-document,,420
+D,Data race attack,,,421
+P,Penetration tests,,,421
+T,Testing,security,,421
+A,Arithmetic overflow attack,,,421
+C,Continuous integration (CI) testing,rare conditions,,421
+T,Tiger team,,,421
+F,Facebook,hits per day,,422
+P,Performance,fast computer fallacies,,422
+P,Performance,apps in development,,422
+S,Slashdothits per day,,,422
+L,Latency,addedeffects,,422
+S,Scalability,cloud computing performance,,422
+G,Google,code reviews,,422
+P,Performance,cloud computing scalability,,422
+P,Performance,optimization with measurement,,422
+C,Cloud computing,performance and scalability,,422
+T,Three-tier architecture,cloud computing performance,,422
+E,Expiration,bugs,,423
+S,Security,secure platform fallacy,,423
+F,Firewallssecure platform fallacy,,,423
+S,Service Oriented Architecture (SOA),server performance,,423
+D,Deployment,cruft accumulation,,423
+B,Bugs,caching behavior,,423
+P,Performance,SOA servers,,423
+N,Naming,bugs,,423
+S,Secure HTTP protocol (HTTPS),secure platform fallacy,,423
+C,Caching,bugs leading to,,423
+C,Cruftdeployment abuse,,,423
+R,Representational State Transfer (REST),caching,,423
+S,SQL injection,niche apps,,424
+T,Timeoutsperformance protection,,,424
+P,Performance,overview,,424
+R,Reliability,overview,,424
+M,Malicious attackers,niche apps,,424
+S,Security,overview,,424
+A,Abstraction,leaky,,424
+N,Non-functional requirements,overview,,424
+G,Google Analytics,,,425
+T,Twitter,Big Brother Bird,,425
+G,Google,Dapper,,425
+D,Dapper,,,425
+R,Request tracing,,,425
+S,Software metrics,monitoring,,425
+B,Big Brother Bird,,,425
+M,Monitoring,approaches,,425
+L,Latency,monitoring,,425
+N,New Relic,,,425
+S,Sharding,database scaling,,426
+D,DigiNotar,,,426
+D,DNS spoofing,,,426
+D,Denial-of-service attack,,,426
+R,Replicationdatabase scaling,,,426
+D,Distributed denial of service (DDoS),,,426
+U,US National Vulnerabilities Database,,,426
+M,Man-in-the-middle attack,,,426
+K,KayAlan,,,432
+T,TurboTax Online,,,432
+D,Dynabook,,,432
+S,Smalltalk,,,432
+O,Object-oriented programming,Turing Award,,432
+M,Microsoft Office 365,,,432
+R,Ruby on Rails basics,Smalltalk origins,,432
+T,Turing Award,KayAlan,,432
+A,Agile DevelopmentVirtuous Triangle of Engineering SaaS,,,433
+V,Virtuous Triangle of Engineering SaaS,,,433
+S,SaaS on Cloud ComputingVirtuous Triangle of Engineering SaaS,,,433
+H,Highly Productive Framework and ToolsVirtuous Triangle of Engineering SaaS,,,433
+D,Debugging,delta debugging,,435
+D,Delta debugging,,,435
+P,Program synthesis,,,435
+A,Agile lifecycle,Waterfall/Spiral comparison,,436
+S,Spiral lifecycle,Agile lifecycle,,436
+W,Waterfall lifecycle,Agile lifecycle,,436
+A,Agile lifecycle,iteration example,,436
+I,IterationAgile lifecycle,,,436
+M,Massive Open Online Course (MOOC),enabling components,,437
+M,Microsoft Office Excel 2013,,,437
+C,Compilers,Turing Award,,440
+T,Turing Award,AllenFrances,,440
+A,AllenFrances,,,440
+P,ProjectLocker,bookware,,442
+G,Google,error message searches,,442
+G,GitHub,bookware,,442
+P,Pivotal Tracker,bookware,,442
+H,Heroku,bookware,,442
+V,Virtual machines (VM),bookware image,,442
+V,Virtual machines (VM),bookware image,,443
+H,Host operating system,,,443
+G,GNU,,,443
+H,Hypervisor,,,443
+G,Guest operating system,,,443
+V,VirtualBox,,,443
+M,Mac OS X,VirtualBox,,443
+U,Unix,Linux origins,,443
+B,Bookware VM,VirtualBox,,443
+L,Linux,VirtualBox,,443
+W,Windows,VirtualBox,,443
+H,HyperText Transfer Protocol (HTTP),bookware VM on EC2,,444
+B,Bookware VM,Amazon EC2,,444
+G,GNU,,,444
+S,Secure HTTP protocol (HTTPS),bookware VM on EC2,,444
+S,StallmanRichard,,,444
+A,Amazon Machine Image (AMI),,,444
+X,XMing,,,444
+A,Amazon Elastic Compute Cloud (EC2),bookware VM,,444
+L,Linux,creation,,444
+O,Open source softwareLinux and GNU,,,444
+N,Network address translation (NAT)VM networking,,,444
+X,XQuartz,,,444
+T,TorvaldsLinus,,,444
+X,X server,,,444
+F,Free Software Foundation,,,444
+E,Emacs,creation,,444
+X,X Window System,,,444
+V,Virtual machines (VM),bookware image,,444
+V,Virtual machine (VM) networking,NAT,,444
+A,Aptana,,,445
+W,Word processorcode editing,,,445
+V,vim,,,445
+G,GitHub,coursework backup,,445
+I,Integrated Development Environments (IDEs),,,445
+S,StallmanRichard,,,445
+P,ProjectLocker,coursework backup,,445
+A,Apple Pagescode editing,,,445
+U,Unix,coursework skills,,445
+J,JoyBill,,,445
+R,RubyMine,,,445
+N,NetBeans,,,445
+V,vi,,,445
+A,Amazon Elastic Block Store,,,445
+E,Emacs,working with code,,445
+R,Ruby on Rails basics,IDEs,,445
+M,Microsoft Wordcode editing,,,445
+F,Free Software Foundation,,,445
+V,Version control,Git basics,,446
+S,Source code control,,,446
+V,Version control systems (VCSs),Git basics,,446
+C,Configuration settingGit basics,,,446
+S,SHA-1 algorithm,,,446
+R,Repositories,Git basics,,446
+G,Git,basic skills,,446
+S,Software configuration management (SCM),,,446
+T,TorvaldsLinus,,,446
+C,Commit,Git basics,,446
+S,Subversion,,,446
+T,Tracked filesGit basics,,,446
+C,Commit,Git basics,,447
+U,Unix,tools on OS X/Windows,,447
+S,Secret keygit hosting services,,,447
+P,Push changes,git hosting services,,447
+A,AddGit basics,,,447
+G,Git,addcommitindex commands,,447
+G,Git,hosting services,,447
+G,GitHub,basic skills,,447
+W,Windows,Unix tools on,,447
+I,IndexGit basics,,,447
+P,ProjectLocker,basic skills,,447
+R,Remotegit hosting services,,,447
+M,Mac OS X,Unix tools,,447
+K,Keypair,,,448
+G,Git,common commands,,450
+P,PostgreSQL,,,451
+G,gem mysql,,,451
+H,Heroku,cloud deployment,,451
+S,Sass,,,451
+C,CoffeeScript,,,451
+C,Cloud computing,Heroku deployment,,451
+D,Deployment,Heroku,,451
+M,MySQL,cloud deployment,,451
+C,Commit,large commits,,453
+R,Repositories,adding files,,453
+V,Virtual machine (VM) networking,resetting,,453
+C,Commit,confusion with push,,453
+P,Push changes,confusion with commit,,453
+B,Bundler,development vs. production environments,,454
+D,Dependencies,development vs. production environments,,454
+G,Gemfile,,,454

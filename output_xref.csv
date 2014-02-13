@@ -1,0 +1,108 @@
+A,Agile Manifesto,original proposal,,xv
+A,AJAX,,,see Asynchronous JavaScript And XML (AJAX)
+A,Amazon,software education,,xiv
+A,AMI,,,see Amazon Machine Image (AMI)
+A,AOP,,,see Aspect-oriented programming (AOP)
+A,Apdex,,,see Application Performance Index (Apdex)
+A,APM,,,see Application performance monitoring (APM)
+A,ARel,,,see ActiveRelation (ARel)
+B,BDD,,,see Behavior-driven development (BDD)
+B,BDUF,,,see Big Design Up Front (BDUF)
+B,Behavior-driven development (BDD),Agile,,xv
+C,CA,,,see Certificate authority (CA)
+C,CAD,,,see Computer Aided Design (CAD) tools
+C,CDN,,,see Content delivery network (CDN)
+C,CI,,,see Continuous integration (CI) testing
+C,CMM,,,see Capability Maturity Model (CMM)
+C,COCOMO,,,see Constructive Cost Model (COCOMO)
+C,CRC cards,,,see Class-Responsibility-Collaborator (CRC) cards
+C,CSRF,,,see Cross-site request forgery (CSRF)
+C,CVS,,,see Concurrent Versions System (CVS)
+D,DDoS,,,see Distributed denial of service (DDoS)
+D,DIP,,,see Dependency Injection Principle (DIP)
+D,DNS,,,see Domain Name System (DNS)
+D,DOM,,,see Document Object Model (DOM)
+D,DRY,,,see Don't Repeat Yourself (DRY)
+D,DSL,,,see Domain-specific language (DSL)
+D,DU coverage,,,see Define-use (DU) coverage
+E,eBay,software education,,xiv
+F,Facebook,software education,,xiv
+F,Framework concepts,Rails basics,,see also Ruby on Rails basics
+G,Google,software education,,xiv
+G,guid,,,see Globally-unique ID (guid)
+H,HABTM,,,see has_and_belongs_to_many (HABTM)
+H,Haml,,,see HTML Abstraction Markup Language (Haml)
+H,HCI,,,see Human Computer Interface (HCI)
+H,HTML,,,see HyperText Markup Language (HTML)
+H,HTTP,,,see HyperText Transfer Protocol (HTTP)
+H,HTTPS,,,see Secure HTTP protocol (HTTPS)
+I,IANA,,,see Internet Assigned Numbers Authority (IANA)
+I,IDEs,,,see Integrated Development Environments (IDEs)
+I,ISP,,,see Interface Segregation Principle (ISP); Internet Service Provider (ISP)
+J,JSAPI,,,see JavaScript Application Programming Interface (JSAPI)
+J,JSON,,,see JavaScript Object Notation (JSON)
+K,KPIs,,,see Key Performance Indicators (KPIs)
+L,LCOM,,,see Lack of Cohesion of Methods (LCOM)
+L,LOC,,,see Lines of code (LOC)
+L,LSP,,,see Liskov Substitution Principle (LSP)
+M,Massive Open Online Course (MOOC),book materials,, xviii
+M,MCDC,,,see Modified Condition/Decision Coverage (MCDC)
+M,Metrics,,,see Software metrics
+M,Microsoft,software education,,xiv
+M,MOCAS,,,see Mechanization of Contract Administration Services (MOCAS)
+M,MOOC,,,see Massive Open Online Course (MOOC)
+M,MTTF,,,see Mean time to failure (MTTF)
+M,MTTR,,,see Mean time between repairs (MTTR)
+M,MVC,,,see Model-View-Controller (MVC)
+N,NAT,,,see Network address translation (NAT)
+O,OCP,,,see Open/Closed Principle (OCP)
+O,OO,,,see Object-orientation (OO)
+P,PaaS,,,see Platform as a Service (PaaS)
+P,Pair programming,Agile,,xv
+P,Patterns,,,see also Design patterns
+P,PERT,,,see Program Evaluation and Review Technique (PERT)
+P,Public cloud services,,,see Utility computing
+Q,QA,,,see Quality assurance (QA)
+R,Rails concepts,,,see also Ruby on Rails basics
+R,RCS,,,see Revision Control System (RCS)
+R,RDBMS,,,see Relational database management system (RDBMS)
+R,regexps,,,see Regular expressions (regexps)
+R,Request,,,see also HTTP request
+R,Requirements basics,,,see also Non-functional requirements
+R,REST,,,see Representational State Transfer (REST)
+R,RPM,,,see Remote Performance Monitoring (RPM)
+R,Ruby on Rails basics,,,see also Rails concepts
+R,RUP,,,see Rational Unified Process (RUP)
+S,SaaS,,,see Software as a Service (SaaS)
+S,SCCS,,,see Source Code Control System (SCCS)
+S,SCM,,,see Software configuration management (SCM)
+S,Scrum,,, xv
+S,SGML,,,see Standard Generalized Markup Language (SGML)
+S,SLA,,,see Service level agreement (SLA)
+S,SLO,,,see Service level objective (SLO)
+S,SOA,,,see Service Oriented Architecture (SOA)
+S,SOAP,,,see Simple Object Access Protocol (SOAP)
+S,Software educationweaknesses,,,xiv
+S,SPAs,,,see Single-page applications (SPAs)
+S,SQL,,,see Structured Query Language (SQL)
+S,SRP,,,see Single Responsibility Principle (SRP)
+S,SRS,,,see Software Requirements Specification (SRS)
+S,SSL,,,see Secure Sockets Layer (SSL)
+S,SSO,,,see Single sign-on (SSO)
+T,TCP/IP,,,see Transmission Control Protocol/Internet Protocol (TCP/IP)
+T,TDD,,,see Test-driven development (TDD)
+T,Test-driven development (TDD),Agile,, xv
+T,TLS,,,see Transport Layer Security (TLS)
+T,TMDb,,,see The Open Movie Database (TMDb)
+U,UI,,,see User interface (UI)
+U,UML,,,see Unified Modeling Language (UML)
+U,URI,,,see Uniform Resource Identifier (URI)
+U,URL,,,see Uniform Resource Locators (URL)
+V,VCSs,,,see Version control systems (VCSs)
+V,VM,,,see Virtual machines (VM)
+V,VPS,,,see Virtual Private Server (VPS)
+X,XHR,,,see XmlHttpRequest (XHR)
+X,XHTML,,,see eXtended HyperText Markup Language (XHTML)
+X,XML,,,see eXtensible Markup Language (XML)
+X,XP,,,see Extreme Programming (XP)
+Y,YAML,,,see Yet Another Markup Language (YAML)
