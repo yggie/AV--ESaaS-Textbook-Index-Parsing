@@ -1,4 +1,4 @@
-Group,H0,H1,H2,Page,Raw XML Line
+Group,H0,H1,H2,Page,Raw XML Line (stripped of <I> and <B>)
 W,W3C,,,0,"""<H0>W3C, <XREF>see World Wide Web Consortium (W3C)</XREF></H0>"""
 E,EC2,,,0,"""<H0>EC2, <XREF>see Amazon Elastic Compute Cloud (EC2)</XREF></H0>"""
 W,WilkesMauriceSir,,,2,"""<H0>Wilkes, Maurice, Sir, <PAGE>2</PAGE></H0>"""

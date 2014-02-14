@@ -89,14 +89,14 @@ end
 # puts @index_items
 
 CSV.open("output_index.csv", "wb") do |csv|
-  csv << [ 'Group', 'H0', 'H1', 'H2', 'Page', 'Raw XML Line' ]
+  csv << [ 'Group', 'H0', 'H1', 'H2', 'Page', 'Raw XML Line (stripped of <I> and <B>)' ]
   @index_items.each do |item|
     csv << [ item[:group], item[:H0], item[:H1], item[:H2], item[:page].to_s, "\"#{item[:raw]}\"" ]
   end
 end
 
 CSV.open("output_xref.csv", "wb") do |csv|
-  csv << [ 'Group', 'H0', 'H1', 'H2', 'Page', 'Raw XML Line' ]
+  csv << [ 'Group', 'H0', 'H1', 'H2', 'Page', 'Raw XML Line (stripped of <I> and <B>)' ]
   @index_xref.each do |xref|
     csv << [ xref[:group], xref[:H0], xref[:H1], xref[:H2], xref[:xref], "\"#{xref[:raw]}\"" ]
   end
