@@ -83,7 +83,7 @@ S,SLA,,,see Service level agreement (SLA),"""<H0>SLA, <XREF>see Service level ag
 S,SLO,,,see Service level objective (SLO),"""<H0>SLO, <XREF>see Service level objective (SLO)</XREF></H0>"""
 S,SOA,,,see Service Oriented Architecture (SOA),"""<H0>SOA, <XREF>see Service Oriented Architecture (SOA)</XREF></H0>"""
 S,SOAP,,,see Simple Object Access Protocol (SOAP),"""<H0>SOAP, <XREF>see Simple Object Access Protocol (SOAP)</XREF></H0>"""
-S,Software educationweaknesses,,,xiv,"""<H0>Software education, weaknesses, <PAGE>xiv</PAGE></H0>"""
+S,"Software education, weaknesses",,,xiv,"""<H0>Software education, weaknesses, <PAGE>xiv</PAGE></H0>"""
 S,SPAs,,,see Single-page applications (SPAs),"""<H0>SPAs, <XREF>see Single-page applications (SPAs)</XREF></H0>"""
 S,SQL,,,see Structured Query Language (SQL),"""<H0>SQL, <XREF>see Structured Query Language (SQL)</XREF></H0>"""
 S,SRP,,,see Single Responsibility Principle (SRP),"""<H0>SRP, <XREF>see Single Responsibility Principle (SRP)</XREF></H0>"""

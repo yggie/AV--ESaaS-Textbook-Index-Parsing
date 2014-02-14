@@ -29,7 +29,7 @@ end
 def pretty(texts)
   return if texts.nil?
   texts.join(' ')                 # join any separated texts
-       .gsub(/,\s*/, '')          # remove ending commas
+       .gsub(/,\s*$/, '')         # remove ending commas
        .gsub(/(^\s*|\s*$)/, '')   # remove trailing whitespaces
        .gsub(/\s+/, ' ')          # suppress multiple whitespaces
 end
