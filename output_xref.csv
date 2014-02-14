@@ -1,108 +1,109 @@
-A,Agile Manifesto,original proposal,,xv
-A,AJAX,,,see Asynchronous JavaScript And XML (AJAX)
-A,Amazon,software education,,xiv
-A,AMI,,,see Amazon Machine Image (AMI)
-A,AOP,,,see Aspect-oriented programming (AOP)
-A,Apdex,,,see Application Performance Index (Apdex)
-A,APM,,,see Application performance monitoring (APM)
-A,ARel,,,see ActiveRelation (ARel)
-B,BDD,,,see Behavior-driven development (BDD)
-B,BDUF,,,see Big Design Up Front (BDUF)
-B,Behavior-driven development (BDD),Agile,,xv
-C,CA,,,see Certificate authority (CA)
-C,CAD,,,see Computer Aided Design (CAD) tools
-C,CDN,,,see Content delivery network (CDN)
-C,CI,,,see Continuous integration (CI) testing
-C,CMM,,,see Capability Maturity Model (CMM)
-C,COCOMO,,,see Constructive Cost Model (COCOMO)
-C,CRC cards,,,see Class-Responsibility-Collaborator (CRC) cards
-C,CSRF,,,see Cross-site request forgery (CSRF)
-C,CVS,,,see Concurrent Versions System (CVS)
-D,DDoS,,,see Distributed denial of service (DDoS)
-D,DIP,,,see Dependency Injection Principle (DIP)
-D,DNS,,,see Domain Name System (DNS)
-D,DOM,,,see Document Object Model (DOM)
-D,DRY,,,see Don't Repeat Yourself (DRY)
-D,DSL,,,see Domain-specific language (DSL)
-D,DU coverage,,,see Define-use (DU) coverage
-E,eBay,software education,,xiv
-F,Facebook,software education,,xiv
-F,Framework concepts,Rails basics,,see also Ruby on Rails basics
-G,Google,software education,,xiv
-G,guid,,,see Globally-unique ID (guid)
-H,HABTM,,,see has_and_belongs_to_many (HABTM)
-H,Haml,,,see HTML Abstraction Markup Language (Haml)
-H,HCI,,,see Human Computer Interface (HCI)
-H,HTML,,,see HyperText Markup Language (HTML)
-H,HTTP,,,see HyperText Transfer Protocol (HTTP)
-H,HTTPS,,,see Secure HTTP protocol (HTTPS)
-I,IANA,,,see Internet Assigned Numbers Authority (IANA)
-I,IDEs,,,see Integrated Development Environments (IDEs)
-I,ISP,,,see Interface Segregation Principle (ISP); Internet Service Provider (ISP)
-J,JSAPI,,,see JavaScript Application Programming Interface (JSAPI)
-J,JSON,,,see JavaScript Object Notation (JSON)
-K,KPIs,,,see Key Performance Indicators (KPIs)
-L,LCOM,,,see Lack of Cohesion of Methods (LCOM)
-L,LOC,,,see Lines of code (LOC)
-L,LSP,,,see Liskov Substitution Principle (LSP)
-M,Massive Open Online Course (MOOC),book materials,, xviii
-M,MCDC,,,see Modified Condition/Decision Coverage (MCDC)
-M,Metrics,,,see Software metrics
-M,Microsoft,software education,,xiv
-M,MOCAS,,,see Mechanization of Contract Administration Services (MOCAS)
-M,MOOC,,,see Massive Open Online Course (MOOC)
-M,MTTF,,,see Mean time to failure (MTTF)
-M,MTTR,,,see Mean time between repairs (MTTR)
-M,MVC,,,see Model-View-Controller (MVC)
-N,NAT,,,see Network address translation (NAT)
-O,OCP,,,see Open/Closed Principle (OCP)
-O,OO,,,see Object-orientation (OO)
-P,PaaS,,,see Platform as a Service (PaaS)
-P,Pair programming,Agile,,xv
-P,Patterns,,,see also Design patterns
-P,PERT,,,see Program Evaluation and Review Technique (PERT)
-P,Public cloud services,,,see Utility computing
-Q,QA,,,see Quality assurance (QA)
-R,Rails concepts,,,see also Ruby on Rails basics
-R,RCS,,,see Revision Control System (RCS)
-R,RDBMS,,,see Relational database management system (RDBMS)
-R,regexps,,,see Regular expressions (regexps)
-R,Request,,,see also HTTP request
-R,Requirements basics,,,see also Non-functional requirements
-R,REST,,,see Representational State Transfer (REST)
-R,RPM,,,see Remote Performance Monitoring (RPM)
-R,Ruby on Rails basics,,,see also Rails concepts
-R,RUP,,,see Rational Unified Process (RUP)
-S,SaaS,,,see Software as a Service (SaaS)
-S,SCCS,,,see Source Code Control System (SCCS)
-S,SCM,,,see Software configuration management (SCM)
-S,Scrum,,, xv
-S,SGML,,,see Standard Generalized Markup Language (SGML)
-S,SLA,,,see Service level agreement (SLA)
-S,SLO,,,see Service level objective (SLO)
-S,SOA,,,see Service Oriented Architecture (SOA)
-S,SOAP,,,see Simple Object Access Protocol (SOAP)
-S,Software educationweaknesses,,,xiv
-S,SPAs,,,see Single-page applications (SPAs)
-S,SQL,,,see Structured Query Language (SQL)
-S,SRP,,,see Single Responsibility Principle (SRP)
-S,SRS,,,see Software Requirements Specification (SRS)
-S,SSL,,,see Secure Sockets Layer (SSL)
-S,SSO,,,see Single sign-on (SSO)
-T,TCP/IP,,,see Transmission Control Protocol/Internet Protocol (TCP/IP)
-T,TDD,,,see Test-driven development (TDD)
-T,Test-driven development (TDD),Agile,, xv
-T,TLS,,,see Transport Layer Security (TLS)
-T,TMDb,,,see The Open Movie Database (TMDb)
-U,UI,,,see User interface (UI)
-U,UML,,,see Unified Modeling Language (UML)
-U,URI,,,see Uniform Resource Identifier (URI)
-U,URL,,,see Uniform Resource Locators (URL)
-V,VCSs,,,see Version control systems (VCSs)
-V,VM,,,see Virtual machines (VM)
-V,VPS,,,see Virtual Private Server (VPS)
-X,XHR,,,see XmlHttpRequest (XHR)
-X,XHTML,,,see eXtended HyperText Markup Language (XHTML)
-X,XML,,,see eXtensible Markup Language (XML)
-X,XP,,,see Extreme Programming (XP)
-Y,YAML,,,see Yet Another Markup Language (YAML)
+Group,H0,H1,H2,Page,Raw XML Line
+A,Agile Manifesto,original proposal,,xv,"""<H1>original proposal, <PAGE>xv</PAGE></H1>"""
+A,AJAX,,,see Asynchronous JavaScript And XML (AJAX),"""<H0>AJAX, <XREF>see Asynchronous JavaScript And XML (AJAX)</XREF></H0>"""
+A,Amazon,software education,,xiv,"""<H1>software education, <PAGE>xiv</PAGE></H1>"""
+A,AMI,,,see Amazon Machine Image (AMI),"""<H0>AMI, <XREF>see Amazon Machine Image (AMI)</XREF></H0>"""
+A,AOP,,,see Aspect-oriented programming (AOP),"""<H0>AOP, <XREF>see Aspect-oriented programming (AOP)</XREF></H0>"""
+A,Apdex,,,see Application Performance Index (Apdex),"""<H0>Apdex, <XREF>see Application Performance Index (Apdex)</XREF></H0>"""
+A,APM,,,see Application performance monitoring (APM),"""<H0>APM, <XREF>see Application performance monitoring (APM)</XREF></H0>"""
+A,ARel,,,see ActiveRelation (ARel),"""<H0>ARel, <XREF>see ActiveRelation (ARel)</XREF></H0>"""
+B,BDD,,,see Behavior-driven development (BDD),"""<H0>BDD, <XREF>see Behavior-driven development (BDD)</XREF></H0>"""
+B,BDUF,,,see Big Design Up Front (BDUF),"""<H0>BDUF, <XREF>see Big Design Up Front (BDUF)</XREF></H0>"""
+B,Behavior-driven development (BDD),Agile,,xv,"""<H1>Agile, <PAGE>xv</PAGE></H1>"""
+C,CA,,,see Certificate authority (CA),"""<H0>CA, <XREF>see Certificate authority (CA)</XREF></H0>"""
+C,CAD,,,see Computer Aided Design (CAD) tools,"""<H0>CAD, <XREF>see Computer Aided Design (CAD) tools</XREF></H0>"""
+C,CDN,,,see Content delivery network (CDN),"""<H0>CDN, <XREF>see Content delivery network (CDN)</XREF></H0>"""
+C,CI,,,see Continuous integration (CI) testing,"""<H0>CI, <XREF>see Continuous integration (CI) testing</XREF></H0>"""
+C,CMM,,,see Capability Maturity Model (CMM),"""<H0>CMM, <XREF>see Capability Maturity Model (CMM)</XREF></H0>"""
+C,COCOMO,,,see Constructive Cost Model (COCOMO),"""<H0>COCOMO, <XREF>see Constructive Cost Model (COCOMO)</XREF></H0>"""
+C,CRC cards,,,see Class-Responsibility-Collaborator (CRC) cards,"""<H0>CRC cards, <XREF>see Class-Responsibility-Collaborator (CRC) cards</XREF></H0>"""
+C,CSRF,,,see Cross-site request forgery (CSRF),"""<H0>CSRF, <XREF>see Cross-site request forgery (CSRF)</XREF></H0>"""
+C,CVS,,,see Concurrent Versions System (CVS),"""<H0>CVS, <XREF>see Concurrent Versions System (CVS)</XREF></H0>"""
+D,DDoS,,,see Distributed denial of service (DDoS),"""<H0>DDoS, <XREF>see Distributed denial of service (DDoS)</XREF></H0>"""
+D,DIP,,,see Dependency Injection Principle (DIP),"""<H0>DIP, <XREF>see Dependency Injection Principle (DIP)</XREF></H0>"""
+D,DNS,,,see Domain Name System (DNS),"""<H0>DNS, <XREF>see Domain Name System (DNS)</XREF></H0>"""
+D,DOM,,,see Document Object Model (DOM),"""<H0>DOM, <XREF>see Document Object Model (DOM)</XREF></H0>"""
+D,DRY,,,see Don't Repeat Yourself (DRY),"""<H0>DRY, <XREF>see Don't Repeat Yourself (DRY)</XREF></H0>"""
+D,DSL,,,see Domain-specific language (DSL),"""<H0>DSL, <XREF>see Domain-specific language (DSL)</XREF></H0>"""
+D,DU coverage,,,see Define-use (DU) coverage,"""<H0>DU coverage, <XREF>see Define-use (DU) coverage</XREF></H0>"""
+E,eBay,software education,,xiv,"""<H1>software education, <PAGE>xiv</PAGE></H1>"""
+F,Facebook,software education,,xiv,"""<H1>software education, <PAGE>xiv</PAGE></H1>"""
+F,Framework concepts,Rails basics,,see also Ruby on Rails basics,"""<H1>Rails basics, <XREF>see also Ruby on Rails basics</XREF></H1>"""
+G,Google,software education,,xiv,"""<H1>software education, <PAGE>xiv</PAGE></H1>"""
+G,guid,,,see Globally-unique ID (guid),"""<H0>guid, <XREF>see Globally-unique ID (guid)</XREF></H0>"""
+H,HABTM,,,see has_and_belongs_to_many (HABTM),"""<H0>HABTM, <XREF>see has_and_belongs_to_many (HABTM)</XREF></H0>"""
+H,Haml,,,see HTML Abstraction Markup Language (Haml),"""<H0>Haml, <XREF>see HTML Abstraction Markup Language (Haml)</XREF></H0>"""
+H,HCI,,,see Human Computer Interface (HCI),"""<H0>HCI, <XREF>see Human Computer Interface (HCI)</XREF></H0>"""
+H,HTML,,,see HyperText Markup Language (HTML),"""<H0>HTML, <XREF>see HyperText Markup Language (HTML)</XREF></H0>"""
+H,HTTP,,,see HyperText Transfer Protocol (HTTP),"""<H0>HTTP, <XREF>see HyperText Transfer Protocol (HTTP)</XREF></H0>"""
+H,HTTPS,,,see Secure HTTP protocol (HTTPS),"""<H0>HTTPS, <XREF>see Secure HTTP protocol (HTTPS)</XREF></H0>"""
+I,IANA,,,see Internet Assigned Numbers Authority (IANA),"""<H0>IANA, <XREF>see Internet Assigned Numbers Authority (IANA)</XREF></H0>"""
+I,IDEs,,,see Integrated Development Environments (IDEs),"""<H0>IDEs, <XREF>see Integrated Development Environments (IDEs)</XREF></H0>"""
+I,ISP,,,see Interface Segregation Principle (ISP); Internet Service Provider (ISP),"""<H0>ISP, <XREF>see Interface Segregation Principle (ISP); Internet Service Provider (ISP)</XREF></H0>"""
+J,JSAPI,,,see JavaScript Application Programming Interface (JSAPI),"""<H0>JSAPI, <XREF>see JavaScript Application Programming Interface (JSAPI)</XREF></H0>"""
+J,JSON,,,see JavaScript Object Notation (JSON),"""<H0>JSON, <XREF>see JavaScript Object Notation (JSON)</XREF></H0>"""
+K,KPIs,,,see Key Performance Indicators (KPIs),"""<H0>KPIs, <XREF>see Key Performance Indicators (KPIs)</XREF></H0>"""
+L,LCOM,,,see Lack of Cohesion of Methods (LCOM),"""<H0>LCOM, <XREF>see Lack of Cohesion of Methods (LCOM)</XREF></H0>"""
+L,LOC,,,see Lines of code (LOC),"""<H0>LOC, <XREF>see Lines of code (LOC)</XREF></H0>"""
+L,LSP,,,see Liskov Substitution Principle (LSP),"""<H0>LSP, <XREF>see Liskov Substitution Principle (LSP)</XREF></H0>"""
+M,Massive Open Online Course (MOOC),book materials,, xviii,"""<H1>book materials, <PAGE>4, xviii</PAGE></H1>"""
+M,MCDC,,,see Modified Condition/Decision Coverage (MCDC),"""<H0>MCDC, <XREF>see Modified Condition/Decision Coverage (MCDC)</XREF></H0>"""
+M,Metrics,,,see Software metrics,"""<H0>Metrics, <XREF>see Software metrics</XREF></H0>"""
+M,Microsoft,software education,,xiv,"""<H1>software education, <PAGE>xiv</PAGE></H1>"""
+M,MOCAS,,,see Mechanization of Contract Administration Services (MOCAS),"""<H0>MOCAS, <XREF>see Mechanization of Contract Administration Services (MOCAS)</XREF></H0>"""
+M,MOOC,,,see Massive Open Online Course (MOOC),"""<H0>MOOC, <XREF>see Massive Open Online Course (MOOC)</XREF></H0>"""
+M,MTTF,,,see Mean time to failure (MTTF),"""<H0>MTTF, <XREF>see Mean time to failure (MTTF)</XREF></H0>"""
+M,MTTR,,,see Mean time between repairs (MTTR),"""<H0>MTTR, <XREF>see Mean time between repairs (MTTR)</XREF></H0>"""
+M,MVC,,,see Model-View-Controller (MVC),"""<H0>MVC, <XREF>see Model-View-Controller (MVC)</XREF></H0>"""
+N,NAT,,,see Network address translation (NAT),"""<H0>NAT, <XREF>see Network address translation (NAT)</XREF></H0>"""
+O,OCP,,,see Open/Closed Principle (OCP),"""<H0>OCP, <XREF>see Open/Closed Principle (OCP)</XREF></H0>"""
+O,OO,,,see Object-orientation (OO),"""<H0>OO, <XREF>see Object-orientation (OO)</XREF></H0>"""
+P,PaaS,,,see Platform as a Service (PaaS),"""<H0>PaaS, <XREF>see Platform as a Service (PaaS)</XREF></H0>"""
+P,Pair programming,Agile,,xv,"""<H1>Agile, <PAGE>xv</PAGE></H1>"""
+P,Patterns,,,see also Design patterns,"""<H0>Patterns, <XREF>see also Design patterns</XREF></H0>"""
+P,PERT,,,see Program Evaluation and Review Technique (PERT),"""<H0>PERT, <XREF>see Program Evaluation and Review Technique (PERT)</XREF></H0>"""
+P,Public cloud services,,,see Utility computing,"""<H0>Public cloud services, <XREF>see Utility computing</XREF></H0>"""
+Q,QA,,,see Quality assurance (QA),"""<H0>QA, <XREF>see Quality assurance (QA)</XREF></H0>"""
+R,Rails concepts,,,see also Ruby on Rails basics,"""<H0>Rails concepts, <XREF>see also Ruby on Rails basics</XREF></H0>"""
+R,RCS,,,see Revision Control System (RCS),"""<H0>RCS, <XREF>see Revision Control System (RCS)</XREF></H0>"""
+R,RDBMS,,,see Relational database management system (RDBMS),"""<H0>RDBMS, <XREF>see Relational database management system (RDBMS)</XREF></H0>"""
+R,regexps,,,see Regular expressions (regexps),"""<H0>regexps, <XREF>see Regular expressions (regexps)</XREF></H0>"""
+R,Request,,,see also HTTP request,"""<H0>Request, <XREF>see also HTTP request</XREF></H0>"""
+R,Requirements basics,,,see also Non-functional requirements,"""<H0>Requirements basics, <XREF>see also Non-functional requirements</XREF></H0>"""
+R,REST,,,see Representational State Transfer (REST),"""<H0>REST, <XREF>see Representational State Transfer (REST)</XREF></H0>"""
+R,RPM,,,see Remote Performance Monitoring (RPM),"""<H0>RPM, <XREF>see Remote Performance Monitoring (RPM)</XREF></H0>"""
+R,Ruby on Rails basics,,,see also Rails concepts,"""<H0>Ruby on Rails basics, <XREF>see also Rails concepts</XREF></H0>"""
+R,RUP,,,see Rational Unified Process (RUP),"""<H0>RUP, <XREF>see Rational Unified Process (RUP)</XREF></H0>"""
+S,SaaS,,,see Software as a Service (SaaS),"""<H0>SaaS, <XREF>see Software as a Service (SaaS)</XREF></H0>"""
+S,SCCS,,,see Source Code Control System (SCCS),"""<H0>SCCS, <XREF>see Source Code Control System (SCCS)</XREF></H0>"""
+S,SCM,,,see Software configuration management (SCM),"""<H0>SCM, <XREF>see Software configuration management (SCM)</XREF></H0>"""
+S,Scrum,,, xv,"""<H0>Scrum, <PAGE>332, xv</PAGE></H0>"""
+S,SGML,,,see Standard Generalized Markup Language (SGML),"""<H0>SGML, <XREF>see Standard Generalized Markup Language (SGML)</XREF></H0>"""
+S,SLA,,,see Service level agreement (SLA),"""<H0>SLA, <XREF>see Service level agreement (SLA)</XREF></H0>"""
+S,SLO,,,see Service level objective (SLO),"""<H0>SLO, <XREF>see Service level objective (SLO)</XREF></H0>"""
+S,SOA,,,see Service Oriented Architecture (SOA),"""<H0>SOA, <XREF>see Service Oriented Architecture (SOA)</XREF></H0>"""
+S,SOAP,,,see Simple Object Access Protocol (SOAP),"""<H0>SOAP, <XREF>see Simple Object Access Protocol (SOAP)</XREF></H0>"""
+S,Software educationweaknesses,,,xiv,"""<H0>Software education, weaknesses, <PAGE>xiv</PAGE></H0>"""
+S,SPAs,,,see Single-page applications (SPAs),"""<H0>SPAs, <XREF>see Single-page applications (SPAs)</XREF></H0>"""
+S,SQL,,,see Structured Query Language (SQL),"""<H0>SQL, <XREF>see Structured Query Language (SQL)</XREF></H0>"""
+S,SRP,,,see Single Responsibility Principle (SRP),"""<H0>SRP, <XREF>see Single Responsibility Principle (SRP)</XREF></H0>"""
+S,SRS,,,see Software Requirements Specification (SRS),"""<H0>SRS, <XREF>see Software Requirements Specification (SRS)</XREF></H0>"""
+S,SSL,,,see Secure Sockets Layer (SSL),"""<H0>SSL, <XREF>see Secure Sockets Layer (SSL)</XREF></H0>"""
+S,SSO,,,see Single sign-on (SSO),"""<H0>SSO, <XREF>see Single sign-on (SSO)</XREF></H0>"""
+T,TCP/IP,,,see Transmission Control Protocol/Internet Protocol (TCP/IP),"""<H0>TCP/IP, <XREF>see Transmission Control Protocol/Internet Protocol (TCP/IP)</XREF></H0>"""
+T,TDD,,,see Test-driven development (TDD),"""<H0>TDD, <XREF>see Test-driven development (TDD)</XREF></H0>"""
+T,Test-driven development (TDD),Agile,, xv,"""<H1>Agile, <PAGE>25, xv</PAGE></H1>"""
+T,TLS,,,see Transport Layer Security (TLS),"""<H0>TLS, <XREF>see Transport Layer Security (TLS)</XREF></H0>"""
+T,TMDb,,,see The Open Movie Database (TMDb),"""<H0>TMDb, <XREF>see The Open Movie Database (TMDb)</XREF></H0>"""
+U,UI,,,see User interface (UI),"""<H0>UI, <XREF>see User interface (UI)</XREF></H0>"""
+U,UML,,,see Unified Modeling Language (UML),"""<H0>UML, <XREF>see Unified Modeling Language (UML)</XREF></H0>"""
+U,URI,,,see Uniform Resource Identifier (URI),"""<H0>URI, <XREF>see Uniform Resource Identifier (URI)</XREF></H0>"""
+U,URL,,,see Uniform Resource Locators (URL),"""<H0>URL, <XREF>see Uniform Resource Locators (URL)</XREF></H0>"""
+V,VCSs,,,see Version control systems (VCSs),"""<H0>VCSs, <XREF>see Version control systems (VCSs)</XREF></H0>"""
+V,VM,,,see Virtual machines (VM),"""<H0>VM, <XREF>see Virtual machines (VM)</XREF></H0>"""
+V,VPS,,,see Virtual Private Server (VPS),"""<H0>VPS, <XREF>see Virtual Private Server (VPS)</XREF></H0>"""
+X,XHR,,,see XmlHttpRequest (XHR),"""<H0>XHR, <XREF>see XmlHttpRequest (XHR)</XREF></H0>"""
+X,XHTML,,,see eXtended HyperText Markup Language (XHTML),"""<H0>XHTML, <XREF>see eXtended HyperText Markup Language (XHTML)</XREF></H0>"""
+X,XML,,,see eXtensible Markup Language (XML),"""<H0>XML, <XREF>see eXtensible Markup Language (XML)</XREF></H0>"""
+X,XP,,,see Extreme Programming (XP),"""<H0>XP, <XREF>see Extreme Programming (XP)</XREF></H0>"""
+Y,YAML,,,see Yet Another Markup Language (YAML),"""<H0>YAML, <XREF>see Yet Another Markup Language (YAML)</XREF></H0>"""
