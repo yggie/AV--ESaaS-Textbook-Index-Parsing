@@ -1,4 +1,4 @@
-Group,H0,H1,H2,Page,Raw XML Line (stripped of <I> and <B>)
+Group,H0,H1,H2,Page/Link,Raw XML Line (stripped of <I> and <B>)
 A,Agile Manifesto,original proposal,,xv,"""<H1>original proposal, <PAGE>xv</PAGE></H1>"""
 A,AJAX,,,see Asynchronous JavaScript And XML (AJAX),"""<H0>AJAX, <XREF>see Asynchronous JavaScript And XML (AJAX)</XREF></H0>"""
 A,Amazon,software education,,xiv,"""<H1>software education, <PAGE>xiv</PAGE></H1>"""

@@ -3,26 +3,31 @@ require 'csv'
 
 @index_items = []
 @index_xref = []
+@index_all = []
 
 def store(item)
   if item =~ /\d+/
-    @index_items << {
+    item = {
       H0: pretty(@H0.texts),
       H1: @H1 ? pretty(@H1.texts) : nil,
       H2: @H2 ? pretty(@H2.texts) : nil,
-      page: item.to_i,
+      value: item.to_i,
       group: pretty(@group.texts),
       raw: (@H2 || @H1 || @H0).to_s
     }
+    @index_items << item
+    @index_all << item
   else
-    @index_xref << {
+    item = {
       H0: pretty(@H0.texts),
       H1: @H1 ? pretty(@H1.texts) : nil,
       H2: @H2 ? pretty(@H2.texts) : nil,
-      xref: item,
+      value: item,
       raw: (@H2 || @H1 || @H0).to_s,
       group: pretty(@group.texts)
     }
+    @index_xref << item
+    @index_all << item
   end
 end
 
@@ -84,6 +89,13 @@ xml.elements.each do |elem|
   parseElem elem
 end
 
+CSV.open("output_all_alphabetical.csv", "wb") do |csv|
+  csv << [ 'Group', 'H0', 'H1', 'H2', 'Page/Link', 'Raw XML Line (stripped of <I> and <B>)' ]
+  @index_all.each do |item|
+    csv << [ item[:group], item[:H0], item[:H1], item[:H2], item[:value].to_s, "\"#{item[:raw]}\"" ]
+  end
+end
+
 @index_items = @index_items.sort_by { |item| item[:page] }
 
 # puts @index_items
@@ -91,14 +103,14 @@ end
 CSV.open("output_index.csv", "wb") do |csv|
   csv << [ 'Group', 'H0', 'H1', 'H2', 'Page', 'Raw XML Line (stripped of <I> and <B>)' ]
   @index_items.each do |item|
-    csv << [ item[:group], item[:H0], item[:H1], item[:H2], item[:page].to_s, "\"#{item[:raw]}\"" ]
+    csv << [ item[:group], item[:H0], item[:H1], item[:H2], item[:value].to_s, "\"#{item[:raw]}\"" ]
   end
 end
 
 CSV.open("output_xref.csv", "wb") do |csv|
-  csv << [ 'Group', 'H0', 'H1', 'H2', 'Page', 'Raw XML Line (stripped of <I> and <B>)' ]
+  csv << [ 'Group', 'H0', 'H1', 'H2', 'Page/Link', 'Raw XML Line (stripped of <I> and <B>)' ]
   @index_xref.each do |xref|
-    csv << [ xref[:group], xref[:H0], xref[:H1], xref[:H2], xref[:xref], "\"#{xref[:raw]}\"" ]
+    csv << [ xref[:group], xref[:H0], xref[:H1], xref[:H2], xref[:value], "\"#{xref[:raw]}\"" ]
   end
 end
 
