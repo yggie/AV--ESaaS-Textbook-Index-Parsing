@@ -96,7 +96,7 @@ CSV.open("output_all_alphabetical.csv", "wb") do |csv|
   end
 end
 
-@index_items = @index_items.sort_by { |item| item[:page] }
+@index_items = @index_items.sort_by { |item| item[:value] }
 
 # puts @index_items
 
