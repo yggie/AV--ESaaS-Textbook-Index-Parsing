@@ -3,8 +3,16 @@ require 'csv'
 
 class Parser
 
-  @index_items = []
-  @index_xref = []
+  attr_accessor :index_items, :index_xref, :H0, :H1, :H2, :group
+
+  def initialize
+    @index_items = []
+    @index_xref = []
+    @H0 = nil
+    @H1 = nil
+    @H2 = nil
+    @group = nil
+  end
 
   def store(item)
     if item =~ /\d+/
@@ -76,7 +84,7 @@ class Parser
     end
   end
 
-  def main stringXml
+  def parse stringXml
     # text = File.read("index.xml")
     text = stringXml
     text.gsub!(/(<I>|<\/I>|<B>|<\/B>)/, '') # remove formatting <I> elements, which cause so much problems
@@ -89,9 +97,9 @@ class Parser
     end
 
     @index_items = @index_items.sort_by { |item| item[:page] }
+  end
 
-    # puts @index_items
-
+  def write_to()
     CSV.open("output_index.csv", "wb") do |csv|
       csv << [ 'Group', 'H0', 'H1', 'H2', 'Page', 'Raw XML Line (stripped of <I> and <B>)' ]
       @index_items.each do |item|

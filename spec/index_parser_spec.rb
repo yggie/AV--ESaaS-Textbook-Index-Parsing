@@ -5,11 +5,13 @@ require 'index_parser.rb'
 
 describe 'Parser' do
   before :each do
-    parser = new Parser
+    @parser = Parser.new
   end
 
+  let(:parser) { @parser }
+
   it 'should assign index_items' do
-    parser '<root><node><item>content</item></node><empty_node/></root>'
+    parser.parse '<INDEX><GROUP><H0>content</H0></GROUP></INDEX>'
     expect(assign: @index_items).to_not be_nil
   end
 end
