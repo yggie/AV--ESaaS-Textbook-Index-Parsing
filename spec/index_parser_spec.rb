@@ -13,11 +13,13 @@ describe 'Parser' do
   it 'should assign index_items' do
     parser.parse '<INDEX><GROUP><H0>content</H0></GROUP></INDEX>'
     expect(assign: @index_items).to_not be_nil
+    expect(parser.H0).to_not be_nil
   end
 
   it 'should assign index_items even with bold in ' do
     parser.parse '<INDEX><GROUP><B>A</B></GROUP></INDEX>'
     expect(assign: @index_items).to_not be_nil
+    expect(parser.group.text).to eq 'A'
   end
 
   it 'should assign an index item with a page number' do
