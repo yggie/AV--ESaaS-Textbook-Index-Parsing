@@ -14,13 +14,19 @@ class Parser
     @group = nil
   end
 
+  def create_latex(italic, bold)
+    "\\index{#{pretty(@H0.texts)}" + 
+    "#{@H1.nil? ? '':'!'+pretty(@H1.texts)}" +
+    "#{italic ? '|textit' : ''}}"
+  end
+
   def store(item, italic = false, bold = false)
     if item =~ /\d+/
       @index_items << {
           H0: pretty(@H0.texts),
           H1: @H1 ? pretty(@H1.texts) : nil,
           H2: @H2 ? pretty(@H2.texts) : nil,
-          latex: %Q{\\index{#{pretty(@H0.texts)}#{@H1.nil? ? '':'!'+pretty(@H1.texts)}#{italic ? '|textit':''}}},
+          latex: create_latex(italic, bold),
           page: item.to_i,
           group: pretty(@group.texts),
           raw: (@H2 || @H1 || @H0).to_s,
