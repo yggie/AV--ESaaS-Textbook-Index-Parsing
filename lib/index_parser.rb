@@ -20,7 +20,7 @@ class Parser
           H0: pretty(@H0.texts),
           H1: @H1 ? pretty(@H1.texts) : nil,
           H2: @H2 ? pretty(@H2.texts) : nil,
-          latex: %Q{\\index{#{pretty(@H0.texts)}}},
+          latex: %Q{\\index{#{pretty(@H0.texts)}#{@H1.nil? ? '':'!'+pretty(@H1.texts)}#{italic ? '|textit':''}}},
           page: item.to_i,
           group: pretty(@group.texts),
           raw: (@H2 || @H1 || @H0).to_s,
