@@ -20,7 +20,7 @@ class Parser
           H0: pretty(@H0.texts),
           H1: @H1 ? pretty(@H1.texts) : nil,
           H2: @H2 ? pretty(@H2.texts) : nil,
-          latex: %q{\index{Amazon!SOA \textit{vs.} Siloed software}},
+          latex: %Q{\\index{#{pretty(@H0.texts)}}},
           page: item.to_i,
           group: pretty(@group.texts),
           raw: (@H2 || @H1 || @H0).to_s,
@@ -41,7 +41,7 @@ class Parser
   def pretty(texts)
     return if texts.nil?
     texts.join(' ') # join any separated texts
-    .gsub(/,\s*/, '') # remove ending commas
+    .gsub(/,\s*$/, '') # remove ending commas
     .gsub(/(^\s*|\s*$)/, '') # remove trailing whitespaces
     .gsub(/\s+/, ' ') # suppress multiple whitespaces
   end

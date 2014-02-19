@@ -22,16 +22,10 @@ describe 'Parser' do
     expect(parser.group.text).to eq 'A'
   end
 
-  it 'should handle italics in index entries' do
-    parser.parse '<INDEX><GROUP><H0>Amazon</H0><H1>SOA <I>vs.</I> siloed software, <PAGE>7</PAGE></H1></GROUP></INDEX>'
-    expect(assign: @index_items).to_not be_nil
-    expect(parser.index_items[0]).to eq({:H0 => "Amazon", :H1 => "SOA siloed software", :H2 => nil, :page => 7, :group => "", :raw => "<H1>SOA <I>vs.</I> siloed software, <PAGE>7</PAGE></H1>", :I => false, :latex => %q{\index{Amazon!SOA \textit{vs.} Siloed software}}})
-  end
-
   it 'should assign an index item with a page number' do
     parser.parse '<INDEX><GROUP><H0>Accessor method, Ruby objects, <PAGE>79</PAGE></H0></GROUP></INDEX>'
     expect(assign: @index_items).to_not be_nil
-    expect(parser.index_items[0]).to eq({H0: "Accessor methodRuby objects", H1: nil, H2: nil, page: 79, group: "", :I => false, raw: "<H0>Accessor method, Ruby objects, <PAGE>79</PAGE></H0>", :latex => %q{\index{Accessor method, Ruby objects}}})
+    expect(parser.index_items[0]).to eq({H0: "Accessor method, Ruby objects", H1: nil, H2: nil, page: 79, group: "", :I => false, raw: "<H0>Accessor method, Ruby objects, <PAGE>79</PAGE></H0>", :latex => %q{\index{Accessor method, Ruby objects}}})
   end
 
   it 'should assign multiple index items with a page number under the same heading' do
@@ -48,5 +42,9 @@ describe 'Parser' do
     expect(parser.index_items[0]).to eq({:H0 => "ActiveModelvalidation", :H1 => nil, :H2 => nil, :page => 137, :group => "", :I => true, :raw => "<H0>ActiveModel, validation, <PAGE><I>137</I></PAGE></H0>", :latex => %q{\index{ActiveModel, validation|textit}}})
   end
 
-
+  it 'should handle italics in index entries' do
+    parser.parse '<INDEX><GROUP><H0>Amazon</H0><H1>SOA <I>vs.</I> siloed software, <PAGE>7</PAGE></H1></GROUP></INDEX>'
+    expect(assign: @index_items).to_not be_nil
+    expect(parser.index_items[0]).to eq({:H0 => "Amazon", :H1 => "SOA siloed software", :H2 => nil, :page => 7, :group => "", :raw => "<H1>SOA <I>vs.</I> siloed software, <PAGE>7</PAGE></H1>", :I => false, :latex => %q{\index{Amazon!SOA \textit{vs.} Siloed software}}})
+  end
 end
