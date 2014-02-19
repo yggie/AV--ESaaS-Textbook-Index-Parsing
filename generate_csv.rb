@@ -1,4 +1,5 @@
-require 'index_parser.rb'
+require './lib/index_parser.rb'
 
 p = Parser.new
-p.parse
+p.parse 'index.xml'
+p.write_to
