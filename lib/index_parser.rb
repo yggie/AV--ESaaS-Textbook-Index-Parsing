@@ -83,6 +83,9 @@ class Parser
         end
 
       when 'B'
+        if elem.parent.name == 'GROUP'
+          @group = elem
+        end
         if elem.parent.name == 'PAGE' and elem.has_text?
           elem.text.split(',').each do |t|
             store t, false, true
