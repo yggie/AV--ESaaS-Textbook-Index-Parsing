@@ -19,13 +19,16 @@ class Parser
     latex = "\\index{#{pretty(@H0.texts)}"
     latex += "!#{get_text_with_latex_formatting(@H1)}" unless @H1.nil?
     latex += '|textit' if italic
+    latex += '|textbf' if bold
     latex += '}'
     latex
   end
 
   def get_text_with_latex_formatting(elem)
     raw = elem.children.join {|e| e.to_s}
-    stem = /^(.*), <PAGE>(<(I|B)>)?\d+(<\/(I|B)>)?<\/PAGE>/.match(raw)[1]
+    rgx = /^(.*), <PAGE>(<(I|B)>)?\d+(<\/(I|B)>)?<\/PAGE>/.match(raw)
+    return nil if rgx.nil?
+    stem = rgx[1]
     italics_sorted = stem.sub('<I>','\textit{')
     italics_sorted = italics_sorted.sub('</I>','}')
     italics_sorted.nil? ? stem : italics_sorted
@@ -41,7 +44,8 @@ class Parser
           page: item.to_i,
           group: pretty(@group.texts),
           raw: (@H2 || @H1 || @H0).to_s,
-          I: italic
+          I: italic,
+          B: bold
       }
     else
       @index_xref << {
