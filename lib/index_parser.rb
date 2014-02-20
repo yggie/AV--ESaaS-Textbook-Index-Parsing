@@ -144,7 +144,7 @@ class Parser
     CSV.open("output_index.csv", "wb") do |csv|
       csv << ['Group', 'H0', 'H1', 'H2', 'Page', 'Raw XML Line (stripped of <I> and <B>)']
       @index_items.each do |item|
-        csv << [item[:group], item[:H0], item[:H1], item[:H2], item[:page].to_s, "\"#{item[:raw]}\""]
+        csv << [item[:group], item[:H0], item[:H1], item[:H2], item[:page].to_s, item[:latex], "\"#{item[:raw]}\""]
       end
     end
 
