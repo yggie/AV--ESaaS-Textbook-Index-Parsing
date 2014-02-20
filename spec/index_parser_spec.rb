@@ -40,7 +40,7 @@ describe 'Parser' do
     parser.parse '<INDEX><GROUP><B>F</B><H0>Framework concepts</H0><H1>JavaScript</H1><H2>client-side, <PAGE><B>169</B></PAGE></H2></GROUP></INDEX>'
     expect(assign: @index_items).to_not be_nil
     expect(parser.index_items.count).to eq 1
-    expect(parser.index_items[0]).to eq H0: 'Framework concepts', H1: 'Javascript', H2: 'client-side', group: 'F', I: false, B: true, latex: '\\index{Framework concepts!JavaScript!client-side|textbf}'
+    expect(parser.index_items[0]).to eq H0: 'Framework concepts', H1: 'JavaScript', H2: 'client-side', :page => 169, group: 'F', I: false, B: true, :raw => "<H2>client-side, <PAGE><B>169</B></PAGE></H2>", latex: '\\index{Framework concepts!JavaScript!client-side|textbf}'
   end
 
   context 'page numbers are styled for figures (italics) and tables (bold)' do

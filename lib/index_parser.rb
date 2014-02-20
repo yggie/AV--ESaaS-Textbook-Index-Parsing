@@ -18,6 +18,7 @@ class Parser
   def create_latex(italic, bold)
     latex = "\\index{#{pretty(@H0.texts)}"
     latex += "!#{get_text_with_latex_formatting(@H1)}" unless @H1.nil?
+    latex += "!#{get_text_with_latex_formatting(@H2)}" unless @H2.nil?
     latex += '|textit' if italic
     latex += '|textbf' if bold
     latex += '}'
@@ -27,7 +28,7 @@ class Parser
   def get_text_with_latex_formatting(elem)
     raw = elem.children.join {|e| e.to_s}
     rgx = /^(.*), <PAGE>(<(I|B)>)?\d+(<\/(I|B)>)?<\/PAGE>/.match(raw)
-    return nil if rgx.nil?
+    return pretty(elem.texts) if rgx.nil?
     stem = rgx[1]
     italics_sorted = stem.sub('<I>','\textit{')
     italics_sorted = italics_sorted.sub('</I>','}')
