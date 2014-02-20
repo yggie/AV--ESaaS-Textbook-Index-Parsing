@@ -42,9 +42,9 @@ describe 'Parser' do
     expect(parser.index_items[0]).to eq({:H0 => "ActiveModel, validation", :H1 => nil, :H2 => nil, :page => 137, :group => "", :I => true, :raw => "<H0>ActiveModel, validation, <PAGE><I>137</I></PAGE></H0>", :latex => %q{\index{ActiveModel, validation|textit}}})
   end
 
-  xit 'should handle italics in index entries' do
+  it 'should handle italics in index entries' do
     parser.parse '<INDEX><GROUP><H0>Amazon</H0><H1>SOA <I>vs.</I> siloed software, <PAGE>7</PAGE></H1></GROUP></INDEX>'
     expect(assign: @index_items).to_not be_nil
-    expect(parser.index_items[0]).to eq({:H0 => "Amazon", :H1 => "SOA siloed software", :H2 => nil, :page => 7, :group => "", :raw => "<H1>SOA <I>vs.</I> siloed software, <PAGE>7</PAGE></H1>", :I => false, :latex => %q{\index{Amazon!SOA \textit{vs.} Siloed software}}})
+    expect(parser.index_items[0]).to eq({:H0 => "Amazon", :H1 => "SOA siloed software", :H2 => nil, :page => 7, :group => "", :raw => "<H1>SOA <I>vs.</I> siloed software, <PAGE>7</PAGE></H1>", :I => false, :latex => %q{\index{Amazon!SOA \textit{vs.} siloed software}}})
   end
 end

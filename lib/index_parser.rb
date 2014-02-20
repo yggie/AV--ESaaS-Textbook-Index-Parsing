@@ -1,5 +1,6 @@
 require 'rexml/document'
 require 'csv'
+require 'debugger'
 
 class Parser
 
@@ -15,9 +16,19 @@ class Parser
   end
 
   def create_latex(italic, bold)
-    "\\index{#{pretty(@H0.texts)}" + 
-    "#{@H1.nil? ? '':'!'+pretty(@H1.texts)}" +
-    "#{italic ? '|textit' : ''}}"
+    latex = "\\index{#{pretty(@H0.texts)}"
+    latex += "!#{get_text_with_latex_formatting(@H1)}" unless @H1.nil?
+    latex += '|textit' if italic
+    latex += '}'
+    latex
+  end
+
+  def get_text_with_latex_formatting(elem)
+    raw = elem.children.join {|e| e.to_s}
+    stem = /^(.*), <PAGE>(<(I|B)>)?\d+(<\/(I|B)>)?<\/PAGE>/.match(raw)[1]
+    italics_sorted = stem.sub('<I>','\textit{')
+    italics_sorted = italics_sorted.sub('</I>','}')
+    italics_sorted.nil? ? stem : italics_sorted
   end
 
   def store(item, italic = false, bold = false)
