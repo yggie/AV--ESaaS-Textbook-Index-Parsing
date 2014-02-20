@@ -1,4 +1,4 @@
-Group,H0,H1,H2,Page,Raw XML Line (stripped of <I> and <B>)
+Group,H0,H1,H2,Page,Latex Command,Raw XML Line (stripped of <I> and <B>)
 W,W3C,,,0,\index{W3C},"""<H0>W3C, <XREF><I>see</I> World Wide Web Consortium (W3C)</XREF></H0>"""
 E,EC2,,,0,\index{EC2},"""<H0>EC2, <XREF><I>see</I> Amazon Elastic Compute Cloud (EC2)</XREF></H0>"""
 E,"EDSAC, Turing Award",,,2,"\index{EDSAC, Turing Award|textit}","""<H0>EDSAC, Turing Award, <PAGE><I>2</I></PAGE></H0>"""
