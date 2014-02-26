@@ -37,8 +37,8 @@ describe 'Parser' do
     expect(assign: @index_items).to_not be_nil
     expect(parser.index_xref.count).to eq 0
     expect(parser.index_items.count).to eq 2
-    expect(parser.index_items[0]).to eq({H0: "Through-associations", B: true, H1: nil, H2: nil, page: 152, group: "", :I => false, raw: "<H0>Through-associations, <PAGE><B>152,</B> <I>152</I></PAGE></H0>", :latex => %q{\index{Through-associations}}})
-    expect(parser.index_items[1]).to eq({H0: "Through-associations", B: false, H1: nil, H2: nil, page: 152, group: "", :I => true, raw: "<H0>Through-associations, <PAGE><B>152,</B> <I>152</I></PAGE></H0>", :latex => %q{\index{Through-associations}}})
+    expect(parser.index_items[0]).to eq({H0: "Through-associations", B: true, H1: nil, H2: nil, page: 152, group: "", :I => false, raw: "<H0>Through-associations, <PAGE><B>152,</B> <I>152</I></PAGE></H0>", :latex => %q{\index{Through-associations|textbf}}})
+    expect(parser.index_items[1]).to eq({H0: "Through-associations", B: false, H1: nil, H2: nil, page: 152, group: "", :I => true, raw: "<H0>Through-associations, <PAGE><B>152,</B> <I>152</I></PAGE></H0>", :latex => %q{\index{Through-associations|textit}}})
   end
 
 
@@ -110,6 +110,20 @@ describe 'Parser' do
     })
   end
 
+  it 'should handle roman numeral pages' do
+    parser.parse '<INDEX><GROUP><H0>Google</H0><H1>software education, <PAGE>xiv</PAGE></H1></GROUP></INDEX>'
+    expect(assign: @index_items).to_not be_nil
+    expect(parser.index_items.count).to eq 1
+    expect(parser.index_items[0]).to eq({
+      H0: 'W3C',
+      H1: nil,
+      H2: nil,
+      xref: 'World Wide Web Consortium (W3C)',
+      group: '',
+      raw: '<H0>W3C, <XREF><I>see</I> World Wide Web Consortium (W3C)</XREF></H0>',
+      latex: %q{\index{W3C|see{World Wide Web Consortium (W3C)}}}
+    })
+  end
 
 
 

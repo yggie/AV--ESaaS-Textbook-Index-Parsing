@@ -108,6 +108,7 @@ class Parser
       when 'PAGE'
         if elem.has_text?
           elem.text.split(',').each do |t|
+            next if /^\s*$/.match t
             store t
           end
         end
@@ -115,6 +116,7 @@ class Parser
       when 'I'
         if elem.parent.name == 'PAGE' and elem.has_text?
           elem.text.split(',').each do |t|
+            next if /^\s*$/.match t
             store t, true
           end
         end
@@ -125,6 +127,7 @@ class Parser
         end
         if elem.parent.name == 'PAGE' and elem.has_text?
           elem.text.split(',').each do |t|
+            next if /^\s*$/.match t
             store t, false, true
           end
         end
