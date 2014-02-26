@@ -70,7 +70,7 @@ describe 'Parser' do
     it 'should assign an index item with a page number in bold' do
       parser.parse '<INDEX><GROUP><H0>ActiveModel, validation, <PAGE><B>137</B></PAGE></H0></GROUP></INDEX>'
       expect(assign: @index_items).to_not be_nil
-      expect(parser.index_items[0]).to eq({:H0 => "ActiveModel, validation", :H1 => nil, :H2 => nil, :page => 137, :group => "",:I => false, :B => true, :raw => "<H0>ActiveModel, validation, <PAGE><B>137</B></PAGE></H0>", :latex => %q{\index{ActiveModel, validation|textbf}}})
+      expect(parser.index_items[0]).to eq({:H0 => "ActiveModel, validation", :H1 => nil, :H2 => nil, :page => 137, :group => "", :I => false, :B => true, :raw => "<H0>ActiveModel, validation, <PAGE><B>137</B></PAGE></H0>", :latex => %q{\index{ActiveModel, validation|textbf}}})
     end
   end
 
@@ -79,6 +79,21 @@ describe 'Parser' do
     expect(assign: @index_items).to_not be_nil
     expect(parser.index_xref.count).to eq 0
     expect(parser.index_items[0]).to eq({:H0 => "Amazon", :H1 => "SOA siloed software", :H2 => nil, :page => 7, :group => "", :I => false, :B => false, :raw => "<H1>SOA <I>vs.</I> siloed software, <PAGE>7</PAGE></H1>", :latex => %q{\index{Amazon!SOA \textit{vs.} siloed software}}})
+  end
+
+
+  it 'should handle roman numeral pages' do
+    parser.parse '<INDEX><GROUP><H0>Google</H0><H1>software education, <PAGE>xiv</PAGE></H1></GROUP></INDEX>'
+    expect(assign: @index_items).to_not be_nil
+    expect(parser.index_items.count).to eq 1
+    expect(parser.index_items[0]).to eq({:H0 => "Google", :H1 => "software education", :H2 => nil, :page => -1, :group => "", :I => false, :B => false, :raw => "<H1>software education, <PAGE>xiv</PAGE></H1>", :latex => %q{\index{Google!software education}}})
+  end
+
+  it 'should escape underscores' do
+    parser.parse '<INDEX><GROUP><H0>Action_View</H0><H1>link_to, <PAGE>112</PAGE></H1></GROUP></INDEX>'
+    expect(assign: @index_items).to_not be_nil
+    expect(parser.index_items.count).to eq 1
+    expect(parser.index_items[0]).to eq({:H0 => "Action_View", :H1 => "link_to", :H2 => nil, :page => 112, :group => "", :I => false, :B => false, :raw => "<H1>link_to, <PAGE>112</PAGE></H1>", :latex => %q{\index{Action\_View!link\_to}}})
   end
 
   it "should handle cross references with 'see'" do
@@ -100,31 +115,15 @@ describe 'Parser' do
     expect(assign: @index_xref).to_not be_nil
     expect(parser.index_items.count).to eq 0
     expect(parser.index_xref[0]).to eq({
-      H0: 'W3C',
-      H1: nil,
-      H2: nil,
-      xref: 'World Wide Web Consortium (W3C)',
-      group: '',
-      raw: '<H0>W3C, <XREF><I>see</I> World Wide Web Consortium (W3C)</XREF></H0>',
-      latex: %q{\index{W3C|see{World Wide Web Consortium (W3C)}}}
-    })
+                                           H0: 'W3C',
+                                           H1: nil,
+                                           H2: nil,
+                                           xref: 'World Wide Web Consortium (W3C)',
+                                           group: '',
+                                           raw: '<H0>W3C, <XREF><I>see</I> World Wide Web Consortium (W3C)</XREF></H0>',
+                                           latex: %q{\index{W3C|see{World Wide Web Consortium (W3C)}}}
+                                       })
   end
-
-  it 'should handle roman numeral pages' do
-    parser.parse '<INDEX><GROUP><H0>Google</H0><H1>software education, <PAGE>xiv</PAGE></H1></GROUP></INDEX>'
-    expect(assign: @index_items).to_not be_nil
-    expect(parser.index_items.count).to eq 1
-    expect(parser.index_items[0]).to eq({
-      H0: 'W3C',
-      H1: nil,
-      H2: nil,
-      xref: 'World Wide Web Consortium (W3C)',
-      group: '',
-      raw: '<H0>W3C, <XREF><I>see</I> World Wide Web Consortium (W3C)</XREF></H0>',
-      latex: %q{\index{W3C|see{World Wide Web Consortium (W3C)}}}
-    })
-  end
-
 
 
 end

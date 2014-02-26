@@ -65,7 +65,7 @@ class Parser
           H1: @H1 ? pretty(@H1.texts) : nil,
           H2: @H2 ? pretty(@H2.texts) : nil,
           latex: create_latex(italic, bold),
-          page: item.to_i,
+          page: item =~ /\d/ ? item.to_i : -1,
           group: pretty(@group.texts),
           raw: (@H2 || @H1 || @H0).to_s,
           I: italic,
