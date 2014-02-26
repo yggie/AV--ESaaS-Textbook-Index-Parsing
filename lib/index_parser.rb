@@ -24,7 +24,7 @@ class Parser
     latex += '{'
     latex += item
     latex += '}}'
-    latex
+    latex.gsub(/_/, '\\_')
   end
 
   def create_latex(italic, bold)
@@ -34,7 +34,7 @@ class Parser
     latex += '|textit' if italic
     latex += '|textbf' if bold
     latex += '}'
-    latex
+    latex.gsub(/_/, '\\_')
   end
 
   def get_text_with_latex_formatting(elem)

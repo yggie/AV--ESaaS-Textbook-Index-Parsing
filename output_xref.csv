@@ -26,7 +26,7 @@ D,DU coverage,,,Define-use (DU) coverage,\index{DU coverage|see{Define-use (DU) 
 E,EC2,,,Amazon Elastic Compute Cloud (EC2),\index{EC2|see{Amazon Elastic Compute Cloud (EC2)}},"""<H0>EC2, <XREF><I>see</I> Amazon Elastic Compute Cloud (EC2)</XREF></H0>"""
 F,Framework concepts,Rails basics,,Ruby on Rails basics,\index{Framework concepts|seealso{Ruby on Rails basics}},"""<H1>Rails basics, <XREF><I>see also</I> Ruby on Rails basics</XREF></H1>"""
 G,guid,,,Globally-unique ID (guid),\index{guid|see{Globally-unique ID (guid)}},"""<H0>guid, <XREF><I>see</I> Globally-unique ID (guid)</XREF></H0>"""
-H,HABTM,,,has_and_belongs_to_many (HABTM),\index{HABTM|see{has_and_belongs_to_many (HABTM)}},"""<H0>HABTM, <XREF><I>see</I> has_and_belongs_to_many (HABTM)</XREF></H0>"""
+H,HABTM,,,has_and_belongs_to_many (HABTM),\index{HABTM|see{has\_and\_belongs\_to\_many (HABTM)}},"""<H0>HABTM, <XREF><I>see</I> has_and_belongs_to_many (HABTM)</XREF></H0>"""
 H,Haml,,,HTML Abstraction Markup Language (Haml),\index{Haml|see{HTML Abstraction Markup Language (Haml)}},"""<H0>Haml, <XREF><I>see</I> HTML Abstraction Markup Language (Haml)</XREF></H0>"""
 H,HCI,,,Human Computer Interface (HCI),\index{HCI|see{Human Computer Interface (HCI)}},"""<H0>HCI, <XREF><I>see</I> Human Computer Interface (HCI)</XREF></H0>"""
 H,HTML,,,HyperText Markup Language (HTML),\index{HTML|see{HyperText Markup Language (HTML)}},"""<H0>HTML, <XREF><I>see</I> HyperText Markup Language (HTML)</XREF></H0>"""
