@@ -47,8 +47,19 @@ class Parser
     italics_sorted.nil? ? stem : italics_sorted
   end
 
+  def store_xref(item)
+    @index_xref << {
+        H0: pretty(@H0.texts),
+        H1: @H1 ? pretty(@H1.texts) : nil,
+        H2: @H2 ? pretty(@H2.texts) : nil,
+        xref: item.strip,
+        latex: create_xref_latex(item.strip),
+        raw: (@H2 || @H1 || @H0).to_s,
+        group: pretty(@group.texts)
+    }
+  end
+
   def store(item, italic = false, bold = false)
-    if item =~ /\d+/
       @index_items << {
           H0: pretty(@H0.texts),
           H1: @H1 ? pretty(@H1.texts) : nil,
@@ -60,17 +71,6 @@ class Parser
           I: italic,
           B: bold
       }
-    else
-      @index_xref << {
-          H0: pretty(@H0.texts),
-          H1: @H1 ? pretty(@H1.texts) : nil,
-          H2: @H2 ? pretty(@H2.texts) : nil,
-          xref: item.strip,
-          latex: create_xref_latex(item.strip),
-          raw: (@H2 || @H1 || @H0).to_s,
-          group: pretty(@group.texts)
-      }
-    end
   end
 
   def pretty(texts)
@@ -103,7 +103,7 @@ class Parser
 
       when 'XREF'
         @xref = elem
-        store elem.text
+        store_xref elem.text
 
       when 'PAGE'
         if elem.has_text?

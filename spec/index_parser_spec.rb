@@ -31,6 +31,17 @@ describe 'Parser' do
     expect(parser.index_items[0]).to eq({H0: "Accessor method, Ruby objects", B: false, H1: nil, H2: nil, page: 79, group: "", :I => false, raw: "<H0>Accessor method, Ruby objects, <PAGE>79</PAGE></H0>", :latex => %q{\index{Accessor method, Ruby objects}}})
   end
 
+
+  it 'should assign an index item with multiple page numbers' do
+    parser.parse '<INDEX><GROUP><H0>Through-associations, <PAGE><B>152,</B> <I>152</I></PAGE></H0></GROUP></INDEX>'
+    expect(assign: @index_items).to_not be_nil
+    expect(parser.index_xref.count).to eq 0
+    expect(parser.index_items.count).to eq 2
+    expect(parser.index_items[0]).to eq({H0: "Through-associations", B: true, H1: nil, H2: nil, page: 152, group: "", :I => false, raw: "<H0>Through-associations, <PAGE><B>152,</B> <I>152</I></PAGE></H0>", :latex => %q{\index{Through-associations}}})
+    expect(parser.index_items[1]).to eq({H0: "Through-associations", B: false, H1: nil, H2: nil, page: 152, group: "", :I => true, raw: "<H0>Through-associations, <PAGE><B>152,</B> <I>152</I></PAGE></H0>", :latex => %q{\index{Through-associations}}})
+  end
+
+
   it 'should assign multiple index items with a page number under the same heading' do
     parser.parse '<INDEX><GROUP><H0>ABC score</H0>
 <H1>definition, <PAGE>310</PAGE></H1><H1>example, <PAGE><I>310</I></PAGE></H1></GROUP></INDEX>'
@@ -84,7 +95,7 @@ describe 'Parser' do
     expect(parser.index_xref[0]).to eq({:H0 => "AJAX", :H1 => nil, :H2 => nil, :xref => "Asynchronous JavaScript And XML (AJAX)", :group => "", :raw => "<H0>AJAX, <XREF><I>see also</I> Asynchronous JavaScript And XML (AJAX)</XREF></H0>", :latex => %q{\index{AJAX|seealso{Asynchronous JavaScript And XML (AJAX)}}}})
   end
 
-  it 'should handle the corner case correctly' do
+  it "should handle cross references with 'see' even when there are digits in the text" do
     parser.parse '<INDEX><GROUP><H0>W3C, <XREF><I>see</I> World Wide Web Consortium (W3C)</XREF></H0></GROUP></INDEX>'
     expect(assign: @index_xref).to_not be_nil
     expect(parser.index_items.count).to eq 0
@@ -95,8 +106,11 @@ describe 'Parser' do
       xref: 'World Wide Web Consortium (W3C)',
       group: '',
       raw: '<H0>W3C, <XREF><I>see</I> World Wide Web Consortium (W3C)</XREF></H0>',
-      latex: %q{\index{W3C}}
+      latex: %q{\index{W3C|see{World Wide Web Consortium (W3C)}}}
     })
   end
+
+
+
 
 end
