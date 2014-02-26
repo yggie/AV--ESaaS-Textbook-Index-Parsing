@@ -12,7 +12,19 @@ class Parser
     @H0 = nil
     @H1 = nil
     @H2 = nil
+    @xref = nil
     @group = nil
+  end
+
+  def create_xref_latex(item)
+    latex = "\\index{#{pretty(@H0.texts)}"
+    latex += '|'
+    puts  @xref.text if @xref
+    latex +=  @xref.children[0].text.delete ' ' if @xref
+    latex += '{'
+    latex += item
+    latex += '}}'
+    latex
   end
 
   def create_latex(italic, bold)
@@ -53,7 +65,8 @@ class Parser
           H0: pretty(@H0.texts),
           H1: @H1 ? pretty(@H1.texts) : nil,
           H2: @H2 ? pretty(@H2.texts) : nil,
-          xref: item,
+          xref: item.strip,
+          latex: create_xref_latex(item.strip),
           raw: (@H2 || @H1 || @H0).to_s,
           group: pretty(@group.texts)
       }
@@ -89,6 +102,7 @@ class Parser
       when 'INDEX'
 
       when 'XREF'
+        @xref = elem
         store elem.text
 
       when 'PAGE'
@@ -151,7 +165,7 @@ class Parser
     CSV.open("output_xref.csv", "wb") do |csv|
       csv << ['Group', 'H0', 'H1', 'H2', 'Page', 'Raw XML Line (stripped of <I> and <B>)']
       @index_xref.each do |xref|
-        csv << [xref[:group], xref[:H0], xref[:H1], xref[:H2], xref[:xref], "\"#{xref[:raw]}\""]
+        csv << [xref[:group], xref[:H0], xref[:H1], xref[:H2], xref[:xref], xref[:latex], "\"#{xref[:raw]}\""]
       end
     end
   end
