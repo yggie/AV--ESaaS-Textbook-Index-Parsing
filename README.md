@@ -11,7 +11,8 @@ To run the program, clone the repo using:
 
 ~~~
 cd AV--ESaaS-Textbook-Index-Parsing
-ruby index_parser.rb
+bundle install          # installs required gems
+ruby generate_csv.rb    # runs the program
 ~~~
 
 This will create two output files, `output_index.csv` and `output_xref.csv` containing an ordered table of indices and a table of section references

@@ -1,6 +1,5 @@
 require 'rexml/document'
 require 'csv'
-require 'debugger'
 
 class Parser
 

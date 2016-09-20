@@ -1,7 +1,6 @@
 # spec/your_class_spec.rb
 require 'spec_helper'
 require 'index_parser.rb'
-# require '../lib/'
 
 describe 'Parser' do
   before :each do
